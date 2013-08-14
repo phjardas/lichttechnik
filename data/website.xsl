@@ -75,6 +75,7 @@
 	  <div class="container">
 	  <p>Dieses Tutorial wurde geschrieben von <a href="mailto:philipp@jardas.de"><i class="icon-envelope"><![CDATA[]]></i> Philipp Jardas</a></p>
 	  <p lang="en">Built with <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://glyphicons.com/">Glyphicons Free</a>.</p>
+	  <p lang="en">Source code hosted on <a href="https://github.com/phjardas/lichttechnik">GitHub</a>.</p>
           <xsl:apply-templates select="/book/creative-commons-license" />
           </div>
         </footer>
