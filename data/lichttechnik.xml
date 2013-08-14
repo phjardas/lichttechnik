@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+  <title>Lichttechnik bei TEN SING</title>
+  <url>http://www.jardas.de/lichttechnik/</url>
+
+  <author>
+    <name>Philipp Jardas</name>
+    <email>philipp@jardas.de</email>
+  </author>
+
+  <chapters>
+    <chapter toc="false" name="startseite" title="Startseite">
+      <p>
+        <img src="images/titel.jpg" alt="Lichttechnik bei TEN SING" />
+      </p>
+      <p>
+        In diesem Tutorial könnt ihr lernen, wie man mit wenig Aufwand
+        ein TEN SING Konzert ins richtige Licht rückt. Angefangen von
+        der richtigen Wahl der Scheinwerfer und Technik und deren
+        Positionierung über Grundlagen der Beleuchtung bis hin zu Basics
+        des Lichtdesigns. Grundlegende Kenntnisse der
+        Veranstaltungstechnik werden vorausgesetzt, allerdings muss man
+        kein Technik-Guru sein, um von diesem Tutorial profitieren zu
+        können, ganz im Gegenteil.
+      </p>
+      <p>
+        Falls du das Tutorial weiterverwenden möchtest, beachte bitte die
+	Creative Commons Lizensierung am Ende jeder Seite. Du hast das Recht,
+	dieses Tutorial zu nichtkommerziellen Zwecken kostenlos weiterzuverbreiten,
+	dies schließt auch Ausdrucke zum persönlichen Gebrauch mit ein. Wenn
+	du das Tutorial zur Verwendung an einer Ausbildungseinrichtung
+	verwenden möchtest, bitte ich um <a href="mailto:philipp@jardas.de">Kontaktaufnahme
+	per Email</a>.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="einfuehrung" title="Einführung">
+      <p>
+        Die Beleuchtung wird bei TEN SING oft vernachlässigt und
+        unterschätzt. Nicht zu selten kam es vor, dass zwar der Sound
+        und die Show perfekt waren, man vom Bühnengeschehen aber nicht
+        viel mitbekam, weil man mangels guter Beleuchtung nicht viel
+        gesehen hat. Ich selber habe es schon erlebt, am Samstag Mittag
+        einen Anruf zu bekommen, in dem ich gebeten wurde, doch noch
+        schnell für denselben Abend eine kleine Lichtanlage zu besorgen,
+        da das Orgateam da nicht dran gedacht hatte…
+      </p>
+      <p>
+        Das zweite Problem ist, dass die meisten Beleuchter bei TEN
+        SINGs – im Gegensatz zu den Tontechnikern – deutlich weniger
+        praktische Erfahrung und Ausbildung haben. Einen Scheinwerfer
+        anschalten kann schliesslich jeder. Leider verlieren die Shows
+        dadurch viel von ihrer Attraktivität, was sich durch eine
+        Minimal-Schulung leicht vermeiden lässt. Und dazu ist dieser
+        Wisch hier da.
+      </p>
+      <p>
+        Bei einigen wichtigen Begriffen wird in einer Fussnote das
+        englische Pendant eingeführt. In der Veranstaltungstechnik wird
+        eben viel auf Englisch geredet.
+      </p>
+      <p>
+        Falls ich zwischendurch mal einen Begriff verwenden sollte, der
+        nicht erklärt wurde (soll ja mal vorkommen), findet ihr eine
+        Erklärung der wichtigsten Begriffe am Ende des Tutorials im
+        Glossar.
+      </p>
+
+      <h3>Dimensionen</h3>
+      <p>
+        Da wir uns einerseits im Showbereich (im Gegensatz zum Theater)
+        befinden und andererseits ein sehr begrenztes Budget zur
+        Verfügung haben, werde ich nur Konzepte vorstellen, die auf
+        diese Rahmenbedingungen passen. Viele der Dinge, die ich hier
+        schreiben werde, gelten so nicht für Schauspielbühnen, Fernseh-
+        und Filmproduktionen oder Showbühnen von grösseren Dimensionen.
+        Während bispielsweise auf Showbühnen von kleinen Ausmassen
+        praktisch das komplette Licht von Parabolscheinwerfern stammt,
+        wird man diese in Schauspielhäusern vereinzelt irgendwo ganz
+        hinten im Lager finden; auf grossen Showbühnen dagegen haben
+        Multifunktionsscheinwerfer schon längst die führende Rolle
+        übernommen.
+      </p>
+      <p>
+        Weiterhin sind viele Dinge Geschmackssache. Ich persönlich
+        schwöre bei der Frontbeleuchtung auf Stufenlinsenscheinwerfer,
+        während viele Veranstaltungstechnikbetriebe meist PAR56 benutzen
+        (siehe Foto unten). Solche Vorlieben sind eine Folge der
+        Herkunft des Technikers und seiner Ausbildung, natürlich auch
+        abhängig von der Person, die Lehrmeister für den Techniker war.
+        Und das Budget hat immer noch ein Wörtchen mitzureden…
+      </p>
+      
+      <h3>Veraltet und doch aktuell</h3>
+      <p>
+      	Dieses Tutorial ist schon so alt, dass ich mich nicht mehr an das
+      	Entstehungsjahr erinnern kann. Es wird so um 2002 entstanden sein.
+      	Viele der vorgestellten Scheinwerfer und Pulte entspringen dem eher
+      	hochpreisigen Segment und sind heute mit Sicherheit veraltet.
+      	Bitte betrachte das Tutorial daher auf keinen Fall als
+      	Kaufempfehlung für die erwähnten Produkte.
+      </p>
+      <p>
+      	Auch wenn die Technologien rund um die Lichttechnik sich rasant
+      	weiterentwickeln bleiben die Grundprinzipien der Lichtgestaltung
+      	und die grundlegenen Scheinwerfertypen dieselben. Daher wird
+      	dieses Tutorial hoffentlich nie vollständig seine Aktualität
+      	verlieren.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="scheinwerfer" title="Scheinwerfer">
+      <p>
+        Es gibt viele Arten von Scheinwerfern<footnote>engl. »fixture«</footnote>.
+        Ich will hier nur einen kurzen Abriss über diejenigen geben,
+        die bei Showproduktionen am häufigsten Verwendung finden.
+        Erstmal ein bisschen Nomenklatur zum Angeben: Nur ein Laie nennt
+        einen Scheinwerfer »Lampe«, im Fachchinesisch heisst das
+        »Leuchte«. »Lampe« hingegen meint das Leuchtmittel, also die
+        Glühbirne oder Entladungsröhre.
+      </p>
+
+      <p>
+        Zu jedem Scheinwerfertypus werde ich einige klassische Vertreter
+        angeben, was natürlich nicht bedeuten soll, dass das die
+        einzigen oder besten sind. Jeder hat seine Lieblinge, mit denen
+        er am liebsten arbeitet – das hier sind meine für kleine
+        Produktionen. Dass ich persönlich lieber mit Martin Scannern und
+        Movingheads arbeite, heisst nicht, dass andere schlechter oder
+        besser sind.
+      </p>
+
+      <h3>Parabolscheinwerfer (PAR)</h3>
+
+      <image src="par64.png" align="left">PAR64, 2,9 kg</image>
+      <image src="vergenz.png" align="right">
+        CPC62, CPC61, CPC60, ACL
+      </image>
+      <p>
+        Die Standardleuchte überhaupt für Showbühnen. Ihr grösster
+        Vorteil: billig, billig, hell, leicht, billig, billig. Das
+        Gehäuse ist aus Aluminium, silber oder schwarz, im Innern brennt
+        eine Pressglaslampe mit Parabolspiegel als Reflektor<footnote>engl. »parabolic aluminized reflector«, deswegen PAR</footnote>,
+        die Lichtstrahlen verlassen die Lampe je nach Lampentyp fast
+        parallel bis breit gestreut. Verschiedene Ausführungen sind
+        erhältlich, die sich durch Grösse, Leistung und Abstrahlwinkel
+        unterscheiden. Am gebräuchlichsten sind die grössten PAR64 und
+        der kleinere Bruder PAR56. Der PAR64 ist so beliebt, dass er von
+        den Technikern liebevoll »Kanne« getauft wurde. Er ist in vielen
+        Varianten erhältlich: Mit 1000W-Lampe gibt es sie als CP60
+        (Standard in der Schweiz), CP61 und CP62, mit steigender Vergenz<footnote>Abstrahlwinkel</footnote>.
+        In 500W gibt es nur das »raylight« mit kleiner Vergenz, das in
+        Deutschland (leider) meistens ausgegeben wird. Aus Preisgründen
+        werden meist Raylights verwendet. Wenn ihr aber die Möglichkeit
+        habt, an CP60 ranzukommen, ist das die Wahl schlechthin –
+        immerhin gibt es doppelte Leistung auf gleichem Winkel.
+        Aufpassen beim Mieten, dass ihr auch die Kannen bekommt, die ihr
+        bestellt habt und dass alle das gleiche Leuchtmittel drin haben!
+        Speziell gibt es noch sogenannte ACLs
+        <footnote>
+          engl. »aicraft landing light« – Flugzeug-Landescheinferfer
+        </footnote>
+        mit einer Vergenz von unter 3°.
+      </p>
+
+      <image src="par64-6bar.png" align="right">
+        6-Bar PAR64, 20 kg
+      </image>
+      <p>
+        PARs werden meist zu viert oder zu sechst an eine Aluminiumröhre
+        <footnote>engl. »pipe«</footnote>
+        gehängt, fertig verkabelt und dann auf ein Stativ gepackt oder
+        an eine Traverse
+        <footnote>engl. »truss«</footnote>
+        gehängt. Das nennt sich dann 6-Bar PAR64, bzw. 6-Bar PAR64.
+        Vorteil: Die Bars werden fertig ausgeliefert, so hat man mit
+        einem Handgriff sechs Leuchten aufgehängt. Da die Kannen aus
+        Aluminium bestehen, sind sie unheimlich leicht (4bar ~13kg, 6bar
+        ~20kg) und man kann ein Truss praktisch unbeschränkt mit ihnen
+        behängen. Versteckert wird das Ganze meist mit Sokapexoder
+        Harting-Steckern, zu denen ihr am Dimmer das passende Pendant
+        braucht.
+      </p>
+
+      <image src="strahlengaenge_par.jpg">
+        Strahlengänge verschiedener PAR64 Lampen. Von links nach rechts:
+        Raylight, CP60, CP61, CP62.
+      </image>
+
+      <image src="leonardo.png" align="right">
+        Desisti Leonardo
+        <br />
+        1 kW, 6,4 kg
+      </image>
+      <h3>Stufenlinsenscheinwerfer (SL)</h3>
+
+      <p>
+        Das ist die Standardleuchte fürs Theater, deswegen von vielen
+        auch als Theaterleuchte bezeichnet. Korrekte Bezeichnung ist
+        »Fresnellinsenscheinwerfer«, da vorne drin eine Fresnellinse
+        (oder eben Stufenlinse) drinsteckt. Sie sind vor allem für
+        Frontlicht und Seitenlicht geeignet. Normalerweise steckt vorne
+        drauf eine Torblende<footnote>engl. »barn door«</footnote>,
+        das ist ein drehbares Gestell mit vier Flügeln dran. Damit
+        lässt sich der Lichtkegel ziemlich gut einstellen, um nicht zu
+        viel zu beleuchten. Die Brennweite und damit die Grösse des
+        Lichtkegels und die Schärfe des Randes lässt sich bequem
+        einstellen. Sie gibt es in Tausenden von Varianten, von 250W bis
+        20kW ist alles vorhanden. Am häufigsten sind 500W, 1kW und 2kW
+        anzutreffen.
+      </p>
+
+      <h3>Profilscheinwerfer</h3>
+
+      <image src="source4.png" align="left">
+        Source Four ETC, 7 kg
+      </image>
+      <image src="strahlengaenge_stufe_profil.jpg" align="right">
+        Strahlengang einer Stufenlinse
+        <br />
+        geringer Vergenz (oben) und eines
+        <br />
+        Profilscheinwerfers (unten)
+      </image>
+      <p>
+        Das, was man landläufig als »Spot« bezeichnet. Korrekte
+        Bezeichnung: Ellipsenspiegel-Scheinwerfer oder
+        Kondensoroptik-Scheinwerfer. Beim Ellipsenspiegelscheinwerfer
+        ist – im Gegensatz zum parabolischen Spiegel – der Lichtaustritt
+        aus dem Reflektor nicht (fast) parallel, sondern wird auf einen
+        zweiten Brennpunkt fokussiert, an dem eine Irisblende oder ein
+        Blendenschieber angebracht ist, mit denen man die Form des
+        Lichtstrahls verändern kann.
+      </p>
+
+      <p>
+        Davor und danach befindet sich ein Linsensystem mit geringer
+        Vergenz. Beim Scheinwerfer mit Kondensoroptik befindet sich im
+        Strahlengang ein kompliziertes Linsensystem ähnlich dem einer
+        Kamera. Das Resultat bei beiden ist ein scharf begrenzter, enger
+        Lichtkegel. Benutzt wird der Profiler als Beleuchtung von
+        statischen Objekten, wie z.B. Keyboards, Schlagzeugen oder
+        Rednerpulten.
+      </p>
+
+      <p>
+        Eine weitere Verwendung ist der Einsatz als
+        Verfolgerscheinwerfer. Dieser wird im hinteren Zuschauerraum auf
+        ein Stativ gestellt und von einer Person bedient. Verfolger
+        haben meist erweiterte Funktionen, wie eine Irisblende, mit der
+        sich der Lichtstrahl verkleinern lässt, eine Fokussierung, um
+        den Rand des Kegels weich oder scharf zu machen und leider oft
+        auch Farbfilter.
+      </p>
+
+      <p>Beispiel Profiler: Source Four 575W ETC</p>
+
+      <p>Beispiel Verfolger: Robert Juliat Ivanhoe 2500W</p>
+
+      <h3>Fluter</h3>
+
+      <image src="kobold.png" align="left">Kobold 1 kW, 4,1 kg</image>
+      <p>
+        Ein ziemlicher Vorschlaghammer. Eigentlich das, was man im
+        Baumarkt als Halogenfluter bekommt, wird auch »Strahler«
+        genannt. Ohne Torblenden unbenutzbar, allerdings haben nur die
+        wenigsten billigen eine Möglichkeit, selbige anzubringen.
+        Problematisch ist, dass der Lichtaustritt nicht parallel und die
+        Leuchtfläche relativ gross ist, so kann man selbst mit
+        Torblenden nicht viel ausrichten. Fluter tun genau das, was ihr
+        Name sagt: Einen möglichst grossen Bereich mit möglichst viel
+        Licht zu überfluten. Nicht gerade die subtilste Variante, wenn
+        auch die billigste. Im Theater werden sie meist zur Beleuchtung
+        des Hintergrundes verwendet (Horizontleuchten). Leider sind
+        viele TEN SINGs darauf angewiesen, aus finanziellen Gründen von
+        Stufenlinsen auf Fluter auszuweichen – meiner Meinung nach eine
+        bedauerliche Tatsache, zumal Stufenlinsen gar nicht so viel mehr
+        kosten. Lieber 4bars statt 6bars nehmen und die nervigen Fluter
+        durch SL-Leuchten ersetzen.
+      </p>
+
+      <p>
+        Beispiel: 500W oder 1000W aus dem Baumarkt. Professioneller:
+        Kobold FL 1000W mit absolut gleichmässiger Ausleuchtung und
+        Torblenden.
+      </p>
+
+      <h3>Multifunktionsscheinwerfer</h3>
+
+      <image src="mk5.png" align="right">Martin Mk V, 35 kg</image>
+      <p>
+        Die neueste Generation der Beleuchtung. Unterschieden wird
+        zwischen spiegelabgelenkten Scheinwerfern (»Scanner«) und
+        kopfbewegten Scheinwerfern (»Moving Heads«). Zusammengefasst
+        wird diese Art von Licht unter »intelligentes Licht« (etwas
+        irreführend, noch kann Licht nicht denken). Die Funktionalität
+        ist eigentlich bei beiden die gleiche. Die Idee ist, einen
+        Profil- oder Stufenlinsenscheinwerfer mit wechselbaren
+        Farbfiltern, Effekten und sonstigem Krimskrams auszustatten, die
+        komplett fernbedienbar sind. Und als Extra-Gimmick gibt es noch
+        die Möglichkeit dazu, die Richtung des Strahls fernzusteuern.
+        Bei Scannern ist das Gehäuse mit Lampen, Farbrädern und Effekten
+        starr im Gehäuse und der Lichtstrahl wird über einen
+        <image src="mac2k.png" align="left">
+          Martin MAC2000 Profile
+        </image>
+        beweglichen Spiegel abgelenkt (schnell). Bei Moving Heads ist
+        der komplette Scheinwerfer auf ein bewegliches Gestell montiert
+        und wird als ganzes bewegt (präzise und mehr Effekte). Ein
+        wunderbares Spielzeug und mit Sicherheit die Erfindung des
+        Jahrhunderts, aber noch zu teuer, um eine komplette TEN
+        SING-Show damit zu fahren.
+      </p>
+
+      <p>
+        Beispiel Scanner: Martin PAL 1200 FX, vergleichbare Modelle von
+        Clay Paky und HighEndSystems.
+      </p>
+
+      <p>
+        Beispiel Moving Head: Martin MAC500 profile (= Profiler) und
+        MAC600 wash (= Stufenlinse), vergleichbare Modelle von
+        Controlite, Starlight und HighEndSystems.
+      </p>
+
+      <h3>Effekte</h3>
+
+      <image src="curtain.png" align="right">
+        Strahlen eines Thomas
+        <br />
+        Curtain (9x240W)
+      </image>
+      <p>
+        Es gibt Unmengen an kleinen und grossen Lichteffekten. Zu den
+        gebräuchlichsten zählen wohl Stroboskope und UV-Röhren.
+        Stroboskope
+        <footnote>engl. »strobe«</footnote>
+        sollte man auf Live-Bühnen vorsichtig einsetzen, da sie schnell
+        als störend empfunden werden. Hier zählt: Stroboskope gehören in
+        den hinteren Teil der Bühne oder auf die Seite, so dass sie in
+        Richtung Publikum blitzen, nicht aber direkt in deren Augen. Ist
+        schwierig, ich weiss, aber auch wichtig. Der Effekt sollte aber
+        nicht blitzende Menschen und Bühne sein, sondern blitzende Luft
+        (Nebel!), so kann man mit einem 500W-Strobe schon mächtig »Lärm«
+        machen.
+      </p>
+
+      <p>
+        UV-Röhren (Schwarzlicht) werden von Tänzern geliebt, sollten
+        aber den Rest der Show nicht verwendet werden, ausser zu
+        speziellen Zwecken. Insbesondere musst du darauf achten, dass
+        die Röhren vom Publikum nicht zu sehen sind, da viele die Röhren
+        selber als unangenehm empfinden. Hierfür eignen sich schwarz
+        lackierte Bretter, auf die die Röhren montiert werden, die man
+        dann an der Bühnenvorderkante anbringt, so dass das Publikum nur
+        die Bretter sieht. Ausserdem gibt es viele Abdeckstifte,
+        Schminken und Fussel, die fluoreszieren und dadurch Menschen in
+        Schwarzlicht nicht grade schön aussehen lassen.
+      </p>
+
+      <image src="blinder.png" align="left">
+        Blinder 8xPAR36
+        <br />
+        (8x650W)
+      </image>
+      <p>
+        Interessant sind Effektgeräte wie Moonflowers, die bunte
+        Strahlen in die Menge werfen. Da diese Geräte allerdings oft
+        auch ein paar Euro kosten, sollte man sich schon die Miete eines
+        Scanners oder Movingheads überlegen, der dann fünfmal so viele
+        Effekte bietet und nur das dreifache kostet.
+      </p>
+
+      <p>
+        Ganz nett sind auch sogenannte Blinder. Helle weisse
+        Scheinwerferblöcke, die in Richtung Publikum zeigen und zwei
+        Funktionen haben. Einerseits das Publikum für kurze Momente zu
+        blenden und andererseits den Akteuren mal die Chance zu geben,
+        das Publikum zu sehen. Diesen ziemlich praktischen Effekt sollte
+        man mit Bedacht einsetzen, nach einem Blinder sieht man für
+        einige Sekunden nichts von der Bühne, da diese ja wieder dunkel
+        ist. Alternativ zu den normalen Blindern kann man auch einfach
+        klassische Scheinwerfer an der Vorderkante der Bühne in Richtung
+        Publikum aufhängen und diese hernehmen.
+      </p>
+      
+      <h3>LED</h3>
+      <image src="led.png" align="right">
+        LED PAR 64 shortnose<br />153 LEDs, total 15 W
+      </image>
+      <p>
+        Die neueste Entwicklung bei Scheinwerfern ist die Einführung von
+        Leuchtdioden. In LED-Scheinwerfern erfolgt die Lichtproduktion nicht
+        mit Entladungs- oder Glühlampen sondern mit vielen kleinen Leuchtdioden.
+        Diese haben den großen Vorteil, dass sie einen deutlich höheren
+        Wirkungsgrad besitzen, also einen viel größeren Anteil des hineingeschickten
+        Stromes tatsächlich in Licht statt in Wärme umwandeln. Außerdem bestechen
+        sie durch ihre kleine Bauweise, sozusagen "mehr Licht pro Gramm".
+      </p>
+      
+      <p>
+        In ein Gehäuse der Größe eines PAR64 kann man gut einhundert dieser
+        kleinen Dioden unterbringen. Verteilt man nun Dioden der drei Grundfarben
+        rot, grün und blau gleichmäßig auf der Scheinwerferfläche und baut
+        separate Ansteuerungen für diese drei Kanäle, kann man jede beliebige
+        Farbe erzeugen, ähnlich wie mit Washlights (s.o.). Die Leistungsaufnahme
+        eines solchen Scheinwerfers wird 50 Watt nicht übersteigen, bei 
+        einem zu einem CPC 60 (1000 W) vergleichbarem Lichtaustritt.
+        Letztendlich sind LED-Scheinwerfer auch noch sehr preiswert.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="technik" title="Technik">
+      <p>
+        Mit Scheinwerfern alleine habt ihr noch kein Licht gemacht.
+        Deswegen kommt in diesem Kapitel eine Auflistung der Dinge, die
+        man sonst noch braucht. Natürlich gibt es noch deutlich mehr,
+        was man zum Basteln so benötigt, aber ich werde hier einmal die
+        grundlegenen Begriffe und Geräte erläutern.
+      </p>
+
+      <h3>Dimmer</h3>
+      <image src="dimmer.jpg" align="left" />
+      <p>
+        Der Dimmer
+        <footnote>engl. »to dim« bedeutet »abdunkeln«</footnote>
+        ist das Herzstück der ganzen Lichtanlage. Er regelt die 230V
+        Netzspannung herunter auf gerade so viel Prozent, wie man vom
+        Pult aus einstellt. Das funktioniert durch sogenannten
+        Phasenanschnitt. Der am Ausgang angehängte Scheinwerfer erhält
+        eine Spannung, die bei jeder Halbwelle der sinusförmigen
+        Eingangsspannung um einen einstellbaren Phasenwinkel vor dem
+        Nulldurchgang eingeschaltet und beim Nulldurchgang wieder
+        ausgeschaltet wird. Dadurch kommt bei einem eingestellten Winkel
+        von 180° 100% der Eingansspannung an, bei 0° kommt genau nichts
+        an. Der Nachteil dieser Art der Spannungsverminderung ist, dass
+        durch das Abhacken der Schwingung viele Oberwellen
+        <footnote>Hochfrequente Wellen, die der normalen 50Hz-Netzfrequenz überlagert werden. Für eine nähere Betrachtung empfiehlt sich die Theorie der Fouriertransformation.</footnote>
+        entstehen, die von den Elektrizitätswerken überhaupt nicht gerne
+        gesehen werden. Bei Anlagen mit weniger als 100kW spielt das
+        praktisch keine Rolle. Wird mehr Leistung verbraucht, gibt es
+        Dimmer, die mit Phasenabschnitt arbeiten, also dem
+        entgegengesetzten Prinzip zum Phasenanschnitt. Durch geschicktes
+        Mischen dieser beiden Dimmerarten kann man die
+        Oberwellenbelastung minimieren. Übrigens: Wenn du von diesem
+        Absatz absolut nichts verstanden hast, ist das auch nicht
+        schlimm. Man muss kein Elektroingenieur sein, um Licht zu
+        machen. Dies war nur ein kleiner Exkurs für den geneigten Leser…
+      </p>
+
+      <h3>Drehstrom</h3>
+
+      <p>
+        Das wichtigste überhaupt: Ohne Strom geht gar nichts. Und weil
+        wir mit hohen Leistungen und Strömen arbeiten, reicht ein
+        kleiner Schuko<footnote>Schutzkontakt, die normalen Stecker für den Haushalt.</footnote>-Stecker
+        nicht aus. Wir brauchen also Drehstrom, Starkstrom,
+        Dreiphasenstrom oder wie man ihn auch immer nennen mag. Das sind
+        die dicken Kabel mit den fünfpoligen rot-orangenen Steckern
+        dran. Wieviel Strom man braucht, kann man sich einfach
+        ausrechnen: Addiere alle angehängten Lasten (Scheinwerfer) in
+        Watt und teile durch 230V, dann erhälst du grob den Maximalstrom
+        in Ampere, der fliessen kann. Natürlich ist das nur eine kleine
+        Überschlagsrechnung, aber wenn du so viel Strom zur Verfügung
+        stellst, kann nicht viel schief gehen. Wichtig: Bei
+        Wechselströmen werden für die Spannung Durchschnittswerte
+        angegeben. Da die Spannung aber sinusförmig ist, ist der
+        Maximalwert um den Faktor 1,41
+        <footnote>Bei sinusförmigen Spannungen berechnet sich der Maximalwert aus dem Effektivwert durch Multiplikation mit √2.</footnote>
+        höher, also 324V bei 230V Netzspannung.
+      </p>
+
+      <h3>Lastkabel</h3>
+
+      <p>
+        Sie transportieren, ähnlich dem Multicore beim Ton, in einem
+        dicken Kabel mehrere dünnere Kabel auf ein Stativ, um zum
+        Beispiel 6 Scheinwerfer mit einem einzigen Kabel zu versorgen.
+        Von den Tontechnikern wegen ihrer einstreuenden Oberwellen oft
+        »Schweinekabel« genannt. Angeschlossen werden sie meist über
+        sogenannte Harting-Stecker, schwere Metallsteckverbindungen mit
+        Sicherheitsverriegelung. Vorsicht: In manchen Nationen wird im
+        Stecker die Masse auf einen Pin gelegt, der hier in Deutschland
+        nach DIN einen Kanal (also Strom) führt. Diese nette
+        Kurzschlussschaltung wird liebevoll »FI booster«
+        <footnote>FI = Fehlstrohmschaltung, die den Strom abschaltet, sobald weniger Strom in die Steckdose zurückkommt als rausgeschickt wurde, was bedeutet, dass irgendwo Strom auf die Erdung geleitet wird. Der Schwellwert beträgt meistens zwischen 10mA und 30mA.</footnote>
+        genannt.
+      </p>
+
+      <h3>Lichtpult</h3>
+
+      <p>
+        Von hier aus steuert der Lichttechniker die Anlage. Wird auch
+        »Stellwerk« (im Theater) oder in Österreich »Regulierung«
+        genannt. Der Ort, an dem die Ton- und Lichtpulte stehen, wird
+        von den Tontechnikern FoH
+        <footnote>»Front Of House«, oft auch einfach »Frontplatz«</footnote>
+        genannt, dieser Begriff hat sich auch beim Licht weitgehend
+        durchgesetzt. Näheres folgt im Kapitel »Das Lichtpult«.
+      </p>
+
+      <h3>Rigging</h3>
+
+      <p>
+        Rigging ist der Überbegriff für alles, woran man Dinge aufhängt.
+        Streng genommen zählen Stative nicht dazu, aber wer wird schon
+        so kleinlich sein… Im Normalfall wird man Scheinwerfer an
+        Aluminium-Röhren aufhängen, die dann quer auf ein Stativ
+        geschraubt werden. Bei grösseren Anlässen benutzt man Traversen.
+        Das sind mehrere durch Diagonalstreben versteifte Aluröhren,
+        meist drei oder vier. Diese haben eine deutlich höhere Traglast,
+        vor allem kann man damit grosse Strecken überwinden und mitten
+        über die Bühne Scheinwerfer aufhängen, wo Stative recht fehl am
+        Platz wären. Auf grossen Bühnen sieht man kein einziges Stativ,
+        alle Leuchten sind an Traversen, die hoch über der Bühne kreuz
+        und quer hängen, »geflogen«, sprich oben aufgehängt. Gleiches
+        gilt übrigens für den Ton: Es ist sicherlich nicht verboten,
+        Longthrows am Rigg aufzuhängen!
+      </p>
+
+      <image src="truss.jpg" />
+
+      <p>
+        Bei grossen Events werden die Traversen selber an der Decke mit
+        Hilfe von Kettenaufzügen befestigt. Kleinere Events bauen eine
+        Art Brücke mit den Traversen, da kleine Hallen oft keine
+        Möglichkeit bieten, tonnenweise Material an die Decke zu hängen.
+        Letzte und unschönste Variante sind Bodenlifte, die ähnlich
+        aussehen und funktionieren wie Gabelstapler ohne Auto drunter.
+        Vorteil der Varianten eins und drei ist, dass man das Truss
+        knapp über dem Boden aufbauen, bestücken und verkabeln kann und
+        es dann komplett hochzufahren. Bei der mittleren Variante des
+        starren Truss muss man von einer Leiter aus die Scheinwerfer
+        hängen und verkabeln, was etwa dreimal so lange dauert und zudem
+        gefährlicher und anstrengender ist.
+      </p>
+
+      <h3>Verkabelung</h3>
+
+      <p>
+        Der Dimmer wird vom Pult aus gesteuert über ein klassisches
+        XLR-Kabel, nennt sich beim Licht DMX-Kabel (toll, oder?). Leider
+        wurde mal festgelegt, dass der Standard für DMX fünfpolige
+        XLR-Stecker sein sollen, obwohl nur drei Pins benutzt werden.
+        Benutzt werden also normale XLR-Kabel, an die man an jedem Ende
+        einen Adapter auf 5poliges DMX anstöpselt. Man kann also einfach
+        einen Kanal am Multicore nehmen und von der Stagebox zu den
+        Dimmern eine XLR-Strippe legen. Einige Leute werden mir jetzt
+        aufs Dach steigen, da die Leitungsimpedanz von DMX- und
+        XLR-Kabeln nicht identisch ist und durch die Fehlanpassung
+        Reflexionen und damit Signalverfälschungen entstehen. Meine
+        Meinung ist, dass man diese Effekte kaum bemerkt.
+      </p>
+
+      <p>
+        Die Platzierung der Dimmer ist ein heikles Thema. Ein idealer
+        Standort ist unter oder seitlich neben der Bühne mit unter der
+        Bühne verlegten Lastkabeln, da die Tonkabel normalerweise auf
+        der Bühne verlaufen. Jetzt noch die Kabel zu den Stativen
+        gezogen, in Mehrfachsteckdosen oder direkt in die Bars
+        eingesteckt, Leuchten in die passenden Steckdosen einstöpseln –
+        fertig. Werden Traversen benutzt, stellt man die Dimmer in die
+        Nähe eines Stativs und zieht von dort alle Kabel auf das Truss.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="pult" title="Das Lichtpult">
+      <p>
+        Es gibt viele Arten von Pulten. Für kleinere Produktionen ist
+        die geläufigste Familie der MA Lightcommander. Beispielsweise
+        der MA Lightcommander 12/2 mit zwei mal zwölf Kanälen. Nach oben
+        hin ist die Anzahl der Kanäle praktisch unbeschränkt, ein häufig
+        anzutreffender Verwante des LC12/2 ist der LC48 mit 48 Kanälen.
+        Wie die Pulte genau funktionieren, entnehmt ihr am besten der
+        jeweiligen Bedienungsanleitung. Im Prinzip funktionieren aber
+        alle Pulte gleich. Es gibt zwei Arten, eine Show zu fahren: Über
+        sogenannte Presets oder über programmierte Szenen.
+      </p>
+
+      <h3>Presets</h3>
+      <p>
+        Auf der linken Seite des Pultes gibt es zwei waagrecht
+        unterteilte Sektionen, die identisch aussehen und je 12 Fader
+        (das sind die Schieberegler) haben. Oben bzw. unten wird Preset
+        A bzw. B genannt. Auf jedem Fader liegt ein Kanal –
+        normalerweise ein Scheinwerfer. Das Prinzip läuft so, dass man
+        während Preset A auf der Bühne gerade angezeigt wird Preset B
+        nach seinen Wünschen vorbereitet. Dann blendet man von A nach B
+        über und B wird auf der Bühne gezeigt. Nun kann man A für die
+        nächste Szene vorbereiten, wieder zurückblenden und so weiter.
+      </p>
+
+      <h3>Szenen (Bilder)</h3>
+      <image src="pult.jpg" align="right" />
+      <p>
+        Alternativ dazu kann man sich, statt jede Szene von Hand
+        einzustellen, jede Szene separat speichern. Dann hat man für
+        jede Szene einen eigenen Regler und kann so einfach von einer
+        zur nächsten gehen und sogar mehrere Szenen gleichzeitig laufen
+        lassen. Die Fader von Preset B werden zu den Szenen-Fadern (also
+        Szene 4 auf Fader 4), während die Fader von Preset A weiterhin
+        den jeweiligen Kanälen zugeordnet sind. Man kann nun im unteren
+        Bereich die gewünschte Szene am Fader hochziehen und parallel
+        oben einzelne Scheinwerfer separat fahren. Wie genau man Szenen
+        programmiert, entnehmt ihr bitte dem jeweiligen Handbuch eures
+        Pultes.
+      </p>
+
+      <h3>Chase</h3>
+      <p>
+        Zum Schluss gibt es noch die Lauflichter, »Chase« genannt. Hier
+        werden nicht einzelne Szenen sondern zeitliche Abfolgen von
+        Szenen gespeichert. So kann man eine beliebige Folge von
+        Scheinwerfen in beliebiger Reihenfolge aufleuchten lassen,
+        wenn's sein darf auch im Takt der Musik. Dazu kann man ein Kabel
+        vom Mischpult (z.B. als Aux-Send oder Direct Out) zum Lichtpult
+        ziehen, auf dem vorzugsweise CD und Bassdrum liegen. Auch hier
+        bitte im Handbuch nachschauen, wie's geht. Theoretisch könnte
+        man so eine Show komplett automatisch als ultralanges Lauflicht
+        mit variablen Überblendzeiten fahren. Wird auch so gemacht –
+        aber für eine einzige Show lohnt sich das kaum, erst recht nicht
+        für TEN SING, das ja vor Spontaneität platzt...
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="grundlagen" title="Beleuchtungstechniken">
+      <p>
+        Beleuchtung kommt aus dem Theater, woher auch sonst. Alle guten
+        Beleuchter haben mal im Theater gearbeitet, oder zumindest mal
+        ein Praktikum dort gemacht. Wenn einer noch nie ein Theater von
+        innen gesehen hat, sieht man das auch sofort am Lichtdesign. Es
+        lohnt sich, ein paar mal in die Oper oder ins Theater zu gehen
+        und sich auf das Lichtdesign zu konzentrieren. Vielleicht kannst
+        du auch mal ein ein- oder zweiwöchiges Praktikum im
+        Schauspielhaus machen. Ich garantiere dir: Danach hast du
+        plötzlich immens mehr Ahnung von Licht als du dir jemals hast
+        träumen lassen. Zur Erinnerung: Die hier vorgestellten
+        Beleuchtungskonzepte treffen so nur für kleine Showbühnen zu.
+        Ich unterteile in Front- und Effektlicht, was übrigens von mir
+        erfundene Begriffe sind. Im Theater unterscheidet man
+        Hauptlicht, Grundlicht, Führungslicht, Aufhelllicht, Baunzlicht,
+        Dreiviertelgegenlicht, Ergänzungslicht, Fülllicht, Akzentlicht,
+        Spitzlicht, Reflexlicht und noch einige Lichtarten mehr.
+      </p>
+
+      <h3>Frontlicht</h3>
+      <image src="frontlicht.jpg" align="left">
+        Unsere Beispielbühne, nur mit Frontlicht
+      </image>
+      <p>
+        Ziel Nummer eins der Beleuchtung ist: Man soll was sehen.
+        Effekte und Selbstdarstellung des Beleuchters kommen weit
+        später. Nochmal: Das wichtigste überhaupt ist, dass man das
+        Bühnengeschehen mitbekommt, gerade bei TEN SING, wo der
+        Zuschauer noch viel mehr an den einzelnen Idividuen interessiert
+        ist. Deswegen erlasse ich hiermit ein kaiserliches Dekret, das
+        allen Lichttechnikern fortan verbietet, farbige Scheinwerfer von
+        vorne aufzuhängen (Ausnahmen bedürfen schriftlicher Genehmigung
+        mit dreifachem Durchschlag mit vierwöchiger Vorlauffrist und
+        erheblicher Bearbeitungsgebühr, einzuwerfen an der grünen Tonne
+        am Eingang). Es ist ganz einfach: Ich will keine grünen oder
+        blauen Gesichter sehen. Weisse T-Shirts sind weiss, nicht rot.
+        Die Dekoration hat nicht umsonst Farben. Also ist das Licht, das
+        von vorne kommt schlicht und ergreifend weiss. Um die Farbe
+        kümmern wir uns im nächsten Kapitel.
+      </p>
+
+      <p>
+        Was ist einer der grössten Unterschiede zwischen
+        Porträt-Aufnahmen daheim gemacht und Porträt-Aufnahmen im
+        Fotostudio gemacht? Die Beleuchtung. Ganz genau die Rich- tung,
+        aus der das Licht kommt. Beleuchtet man ein Gesicht frontal, hat
+        man keine Schatten, da das Licht aus derselben Richtung kommt,
+        aus der man blickt. Das Gesicht (und auch Körper und Kleidung
+        und alle anderen Objekte) wirken flach und unplastisch. Das
+        Gegenrezept: Von der Seite beleuchten. Dadurch bekommen Objekte
+        Schattierungen und gewinnen dadurch an Plastizität. Richtlinie
+        sind die berühmten 45°: Einfallende Lichtstrahlen sollten stets
+        einen Winkel von 35°-45° zum Beobachter haben. Der ideale
+        Standort für Scheinwerfer wäre ein Halbkreis über der Bühne, um
+        45° nach vorne gekippt (kann sich das jetzt jemand vorstellen?).
+        Meist ist es aber schwierig, so etwas zu konstruieren, deswegen
+        wird Frontlicht meist auf Stativen schräg von vorne oder an
+        Traversen vorne über der Bühne platziert. Lieber etwas zu weit
+        aussen als zu weit innen und so hoch wie möglich. Je höher die
+        Scheinwerfer, desto besser kann man Personen ausleuchten, ohne
+        den Hintergrund unnötigerweise auzuhellen. Dadurch setzen sich
+        Objekte auf der Bühne deutlich vom normalerweise unwichtigen
+        Hintergrund ab.
+      </p>
+      
+      <image src="frontal_seitlich.jpg">
+        Links frontal beleuchtet, rechts seitlich mit zwei Scheinwerfern
+      </image>
+
+      <h3>Effektlicht</h3>
+      <image src="effekt_frontlicht.jpg" align="right">Unsere Beispielbühne mit Front- und Effektlicht</image>
+      <p>
+        Ziel Nummer zwei der Beleuchtung ist: Show machen. Das Prinzip
+        von Effektlicht ist einfach: Bei beleuchtendem Licht ist die
+        Stelle von Bedeutung, an der der Lichtstrahl auf Objekte
+        auftrifft, da diese schlussendlich hell werden. Bei Effektlicht
+        hingegen spielt der Auftreffpunkt keine Rolle, vielmehr
+        interessiert der Strahl selber. Und das ist auch die einzige
+        Aufgabe, die Nebel auf der Bühne hat: Lichtstrahlen sichtbar
+        machen. Einnebeln im herkömmlichen Sinne macht man beim Militär,
+        aber nicht auf einer Bühne auf der auch noch ein Chor steht.
+        Schwacher Nebel ist unheimlich freundlich, denn man sieht im
+        Dunst nur diejenigen Lichtstrahlen, die in Richtung des
+        Beobachters zeigen. Und hier sind wir bei Effektlicht: Farbige
+        Scheinwerfer werden prinzipiell hinter der Bühne aufgestellt und
+        zeigen in Richtung des Publikums. So sieht man die Strahlen im
+        Nebel, während das weisse Frontlicht vom Beobachter wegzeigt und
+        seine Strahlen somit unsichtbar sind. Umgekehrt für die Akteure
+        auf der Bühne, sie sehen normalerweise nur eine weisse Wand vor
+        sich, ob des starken weissen Lichts, das auf sie leuchtet. Aber
+        die Show ist ja für das Publikum und nicht für die Akteure.
+      </p>
+
+      <image src="akteure.jpg" align="right">So sieht das dann für die Akteure aus</image>
+      <h3>Nebel</h3>
+      <p>
+        … ist eigentlich der falsche Ausdruck, »Dunst« würde viel besser
+        passen. Der Nebel als solches interessiert ja gar nicht. Im
+        Idealfall wäre der Nebel vollkommen unsichtbar und würde nur da
+        aufleuchten, wo er von einem Lichtstrahl durchkreuzt wird. Dies
+        kann man am besten durch eine regelbare Nebelmaschine
+        realisieren, die im Gegensatz zu Discokomplettzuneblern einen
+        kontinuierlichen schwachen Ausstoss haben, nicht viel mehr, als
+        drei oder vier Zigaretten produzieren. Darüber kommt ein
+        Ventilator, der den Nebel auf der Bühne verteilt.
+      </p>
+
+      <h3>Ein Beispiel</h3>
+      <image src="buehne01.png" align="right" />
+      <p>
+        Wir nehmen als Mindestausstattung zwei Stative mit je zwei
+        1000W-Stufenlinsen dran und zwei Stative mit je einem 6bar PAR64
+        Raylight oder CP60. Die Aufstellung kannst du der Skizze
+        entnehmen, das Publikum sitzt auf dieser Skizze unten. Wichtige
+        Punkte: Das Frontlicht kommt eher von der Seite als von vorne.
+        Das Effektlicht ist im hinteren Teil und zeigt Richtung
+        Publikum, idealerweise steht es hinter der Bühne, ansonsten
+        seitlich daneben. Auch das Effektlicht sollte so hoch wie
+        möglich gekurbelt werden. Und wenns sein muss, darf man auch die
+        leidigen Fluter statt der Stufenlinsen nehmen.
+      </p>
+
+      <h3>Ausleuchten</h3>
+      <p>
+        Beim Frontlicht gilt: Je weiter innen ein Scheinwerfer steht,
+        desto weiter auf die entgegengesetzte Seite muss er leuchten.
+        Leuchten, die ganz aussen stehen, beleuchten die eigene
+        Bühnenhälfte; Leuchten, die innen stehen, beleuchten die
+        entgegengesetzte Bühnenhälfte. Grafisch lässt sich das wohl am
+        besten illustrieren, siehe Skizze. Hat man mehr als zwei
+        Scheinwerfer pro Seite, wird die Bühne in dementsprechend viele
+        Teile unterteilt. Wichtig ist, dass eine Person, egal wo sie im
+        Innern der Bühne steht, mit in allen Richtungen ausgestreckten
+        Armen gut sichtbar ist. So leuchte ich auch normalerweise ein:
+        Ich stelle eine grosse Person mit seitlich ausgestreckten Armen
+        an alle kritischen Punkte der Bühne (vor allem an die
+        Vorderkante!) und stelle die Torblenden dementsprechend ein.
+        Währenddessen sitzt jemand am Pult und macht die von mir
+        gewünschten Leuchten an. Zum Schluss werden alle Frontleuchten
+        voll aufgedreht und man sucht nach »Löchern« in der
+        Ausleuchtung, die dann noch korrigiert werden müssen.
+      </p>
+      <image src="einleuchten.png" align="left">Skizze zum Einleuchten des Frontlichtes</image>
+
+      <p>
+        Hat man genügend Scheinwerfer, kann man alternativ nach
+        Funktionen beleuchten. Ein Paar Leuchten für den Chor, ein Paar
+        für die Band und so weiter. Die restlichen werden dann fürs
+        Löcherstopfen hergenommen, da insbesondere der Tanz meist die
+        ganze Bühne benutzt.
+      </p>
+
+      <p>
+        Das Effektlicht wird nach Ästhetik eingeleuchtet. Hier hat der
+        Lichtdesigner freie Hand zu tun was er will. Ich lasse die
+        Scheinwerfer an einem Bar normalerweise eine Art Fächer bilden,
+        der von der gegenüberliegenden Seite symmetrisch nachgebildet
+        wird. Bei einer kleinen Bühne wie der im Beispiel kann man als
+        Richtlinie alle Scheinwerfer auf die vordere Bühnenkante oder
+        noch ein Stückchen in Richtung Publikum strahlen lassen. Hier
+        klettert einer auf eine Leiter und richtet die Scheinwerfer aus,
+        während du selber am Mischpult sitzt und Anweisungen gibst,
+        idealerweise haben beide zur Stimmschonung ein Mikrofon oder
+        noch besser Funkgerät.
+      </p>
+
+      <h3>Sicherheit</h3>
+      <image src="safety.png" align="left">Safety zur Sicherung<br />geflogenen Materials</image>
+      <p>
+        Zentrales Stichwort an dieser Stelle: Die
+        Versammlungsstättenverordnung (VStättV). Jeder Techniker muss
+        diese schon mal gelesen haben. Normalerweise wird keiner von der
+        Bauaufsicht kommen, um eure Bühnen abzunehmen. Wenn aber mal ein
+        Feuer ausbricht oder ein Scheinwerfer runterfällt und ihr auch
+        nur die kleinste Vorschrift nicht beachtet habt, könnt ihr
+        persönlich dafür haftbar gemacht werden. Lasst euch also von
+        keinem einreden, dass man keine Rettungswege braucht und die
+        Scheinwerfer auch nicht gesichert werden brauchen, weil ja eh
+        nichts passieren wird. Am Schluss seid nämlich ihr für alles,
+        was mit Licht und Rigg zu tun hat, verantwortlich. Für TEN SING
+        sind die Abschnitte 2 bis 4 von Bedeutung, insbesondere die §§
+        31-34, 80, 81, 103-105, 107-111, 114-120. Besorgt euch ein
+        Exemplar, nehmt es auf jeden Auftritt mit und schenkt dem
+        Orgateam auch gleich noch eins, um sie mal vor den Kopf zu
+        stossen, was man normalerweise so alles falsch macht. Der
+        Versicherung und der Staatsanwaltschaft ist es nämlich ziemlich
+        egal, ob TEN SING einen guten Zweck verfolgt oder nicht.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="beispiele" title="Beispiele">
+      <h3>Grundlagen</h3>
+
+      <p>
+        Als Lichttechniker stehst du nicht über der Show, du stehst auch
+        nicht neben oder vor der Show. Vielmehr bist du Teil der Show.
+        Eine gut durchdachte Aufführung wird schon in der Konzeption
+        Lichtdesign beinhalten, insbesondere bei Tänzen, Theater und
+        speziellen Liedern. Das Licht sollte nicht einfach planlos
+        draufgesetzt wirken, sondern als Teil der Gestaltung wirken.
+        Soviel zur Theorie, klappt ja eh nicht…
+      </p>
+
+      <h3>Positionierung</h3>
+      <image src="tse.jpg" align="right">
+        Mit wenig Material einiges erreichen: Zwei 4bars,<br />zwei Fluter und ein Moonflower (TS Ebdorf)
+      </image>
+      <p>
+        Lichtdesign besteht aus zwei Teilen: Einerseits der
+        Positionierung der Scheinwerfer, andererseits der
+        Konzeptionierung der Show. Beides geht bei grossen Shows Hand in
+        Hand, bei TEN SING hast du bei beiden Punkten jedoch wenig
+        Möglichkeiten. Hast du das Material unserer Beispielbühne (4x
+        SL, 8x PAR64), bleiben dir nicht viele Alternativen ausser der
+        schon beschriebenen. Kannst du jedoch aufgrund ausgiebiger
+        finanzieller Unterstützung auf mehr Leuchten umsteigen, gibt es
+        doch einige nette Dinge, wie man kreativ Licht aufstellen kann.
+        Ich werde jetzt progressive eine grössere Bühne aufbauen und
+        zeigen, wo man neue Scheinwerfer sinnvoll unterbringt. Zu
+        manchen gibts als Extra-Gimmick noch ein paar gerenderte
+        Bildchen dazu.
+      </p>
+
+      <h3>Bühne 1</h3>
+
+      <p>
+        2 Stative mit je 2 1kW-Stufenlinsen
+        <br />
+        2 Stative mit je 1 6bar PAR64
+        <br />
+        Insgesamt 12 Leuchten
+      </p>
+
+      <p>
+        Diese Bühne kennt ihr schon. Jetzt wollen wir mal ein bisschen
+        was dazupacken.
+      </p>
+
+      <image src="beispiel01.jpg" align="right" />
+      <h3>Bühne 2</h3>
+      <p>
+        10m Truss
+        <br />
+        2x Kurbelstativ
+        <br />
+        3x 6bar PAR64
+        <br />
+        Frontlicht s.o.
+        <br />
+        Insgesamt 22 Leuchten
+      </p>
+
+      <p>
+        Jetzt haben wir statt den Stativen hinten eine Traverse
+        hingestellt und drei 6bars dran, macht 18 Leuchten hinten. Ein
+        6bar ist 3.05m lang, sollte also auf 10m Traverse passen. Das
+        Frontlicht bleibt vorerst gleich wie bisher.
+      </p>
+
+      <p>
+        An dem gerenderten Bild kann man auch erkennen, dass ich –
+        obwohl hinten 18 Leuchten hängen – nur zwei Farben verwende. Das
+        ist Geschmackssache, allerdings macht es deutlich mehr Effekt,
+        mit wenigen Farben zu arbeiten, die die Bühne dafür aber
+        komplett in Licht tauchen können.
+      </p>
+
+      <p>
+        Jetzt wäre es an der Zeit, ein grösseres Lichtpult mit 24
+        Kanälen aufzufahren.
+      </p>
+
+      <h3>Bühne 3</h3>
+
+      <p>
+        Wie oben, zusätzlich
+        <br />
+        18x Scroller
+        <br />
+        Insgesamt 22 Leuchten
+      </p>
+
+      <p>
+        Jetzt fahren wir neue Gechütze auf. Bevor wir die Bühne mit mehr
+        Scheinerfern zustopfen, leisten wir uns 18 sogennante Scroller.
+        Das sind Magazine, in denen im Normalfall 20 Farbfilter
+        aneinandergeklebt auf zwei Rollen gewickelt sind. Diese kann man
+        dann per DMX ansteuern, wodurch jede unserer 18 Leuchten 20
+        mögliche Farben bekommt. Damit kann man schon richtig gutes
+        Design machen, da man bei jeder Farbstimmung die volle Anzahl
+        Scheinwerfer benutzen kann.
+      </p>
+      
+      <p>
+        Eine sehr preiswerte alternative zu Farbwechslern bieten die in
+        letzter Zeit immer beliebter werdenden LED-Scheinwerfer. Zwei
+        4-Bars solcher Scheinwerfer versorgen eine Bühne so effizient
+        wie acht Kannen mit Scrollern. Mit einigen zusätzlichen Vorteilen.
+        Die Leistungsaufnahme der kompletten acht LED-Scheinwerfer ist
+        nicht einmal so hoch wie die eines einzelnen PAR 64. Die LEDs strahlen
+        kaum Hitze ab, es wird also nicht so heiß auf der Bühne. Die 
+        Lebensdauer von Leuchtdioden übersteigt diejenige von Glühlampen
+        um Größenordnungen, es entstehen also kaum Wartungskosten. Zu
+        guter Letzt spart man sich den Dimmer, da die Scheinwerfer selbst
+        direkt über DMX angesprochen werden. Alles in allem werden LEDs die
+        Arbeitstiere der Zukunft sein.
+      </p>
+      
+      <p>
+        Sollte dein TEN SING in nächster Zeit die Anschaffung von Licht
+        erwägen, sind LEDs mit Sicherheit die Investition der Wahl. Zumal
+        man mit fertigen Paketen noch einiges mehr sparen kann. Eine
+        showtaugliche Ausrüstung mit zwei 4-Bars mit je einem Stativ,
+        acht LED-Scheinwerfern, Steuerpult und Verkabelung bekommt man schon
+        für deutlich unter EUR 500,-.
+      </p>
+
+      <image src="buehne02.png" align="right" />
+      <h3>Bühne 4</h3>
+      <p>
+        2x 10m Truss
+        <br />
+        4x 6bar PAR64 (mit oder ohne Scroller)
+        <br />
+        6-8x Stufenlinse 500W
+      </p>
+
+      <p>
+        Vorne ziehen wir jetzt auch noch eine Traverse entlang, an der
+        wir doppelt so viele Stufenlinsen aufhängen wie vorher, dafür
+        etwas schwächere. Diese Bühne eignet sich hervorragend für
+        ausgefeilte Theaterstücke, die viel mit dem Raum der Bühne und
+        verschiedenen Stimmungen arbeiten. Auch kann man jetzt gezielt
+        den Chor, die Band und den Raum der Solisten beleuchten.
+        Vorteil: bei Instrumentalstücken ist nur die Band beleuchtet,
+        bei Stücken a capella bekommt nur der Chor sein Licht. Präzision
+        beim Einleuchten wird wichtiger, auch eine gute Planung der
+        Funktion der Scheinwerfer. Hier würde ich zwei für den Chor,
+        zwei für die Band hernehmen und mit den restlichen Leuchten den
+        restlichen Bühnenbereich abdecken. Zusätzlich hängen wir hinten
+        noch ein viertes 6bar rein, ist aber mit Scrollern absolut nicht
+        notwendig.
+      </p>
+
+      <image src="beispiel02.jpg" align="right" />
+      <p>
+        Das ist eigentlich die perfekte kleine TEN SING-Bühne. Viel mehr
+        braucht es eigentlich nicht, weniger ist Anmassung für jeden
+        anspruchsvollen Techniker. Wichtiger als Scanner oder sonstigen
+        Firlefanz aufzuhängen ist es, diesen Standard zu erreichen, der
+        bei grösseren Bühnen natürlich dementsprechend angepasst werden
+        muss.
+      </p>
+
+      <h3>Bühne 5</h3>
+
+      <p>
+        wie oben, zusätzlich:
+        <br />
+        1x 4bar PAR64
+        <br />
+        div. einzelne PAR64
+      </p>
+
+      <image src="floorspot.png" align="right">PAR64 shortnose<br />floormount</image>
+      <p>
+        Schon sind wir bei den Feinheiten. Das neue 4bar wird auf den
+        Boden hinten an der Rückseite der Bühne gestellt und ein Fächer
+        an die Wand gebildet. Die Farbe sollte sich nach der
+        Beschaffenheit und Farbe des Hintergrunds richten, besonders
+        schön sieht diese Konstruktion auf Vorhängen aus, die grosse
+        Falten werfen. Die einzelnen PAR64 kann man mit floor-mount
+        ausgerüstet (ein zweiter Bügel zum Auf-den-Boden-Stellen) an
+        verschiedenen Plätzen zum Einsatz bringen.
+      </p>
+
+      <image src="backdrop.jpg" align="left" />
+      <p>
+        Eine andere Verwendungsmöglichkeit ist, die PAR64 am Boden die
+        Wände entlang zu verteilen, um einen ähnlichen Effekt wie beim
+        4bar zu erreichen. Man kann aber auch das Schlagzeug chique
+        einfärben und beblinken.
+      </p>
+
+      <p>
+        Zwei Folien kann man mit Kreppklebeband (nicht Gaffer)
+        nebeneinanderkleben und vor einen Fluter montieren, der dann vom
+        Boden aus die Rückwand beleuchtet. Ganz elegant wäre es, das mit
+        Scrollern zu realisieren, so dass man die Rückwand auch in
+        diverse Farben tauchen kann.
+      </p>
+
+      <p>
+        Wie wärs noch mit PAR36 Pinspots? Kosten fast nichts, machen
+        aber geniales Spitzlicht!. Entdecke die Möglichkeiten!
+      </p>
+
+      <image src="buehne03.png" align="right" />
+      <image src="beispiel03.jpg" align="right" clear="right" />
+      <h3>Bühne 6</h3>
+      <p>
+        Frontlicht s.o.
+        <br />
+        3x 3m Truss
+        <br />
+        2x 2m Truss
+        <br />
+        2x T-Stück
+        <br />
+        2x Kettenlift
+        <br />
+        3x 6bar PAR64
+        <br />
+        2x 4bar PAR64
+      </p>
+
+      <p>
+        Licht, das von der Mitte der Bühne kommt, ist immer ein guter
+        Effekt. Dafür bauen wir mit unserem Traversenmaterial eine
+        Konstruktion, die Aufhängung in mittlerer Höhe erlaubt. Um diese
+        Bühne anständig aufbauen zu können, sollten wir spätestens jetzt
+        auf Kettenlifte umsteigen und das Material fliegen. Kettenlifte
+        werden an der Oberseite der Traverse befestigt, das Ende ihrer
+        Ketten an einem stabilen Aufhängepunkt an der Decke festgemacht.
+        So kann man das Material am Boden aufbauen, -hängen und
+        verkabeln und dann am Stück hochfahren. Für unsere
+        Grössenordnung muss man keine motorisierten Aufzüge nehmen
+        sondern kann die billigeren muskelgetriebenen Varianten
+        benutzen.
+      </p>
+
+      <h3>Bühne 7</h3>
+
+      <p>
+        Frontlicht s.o.
+        <br />
+        1x 12m Truss
+        <br />
+        3x 6bar PAR64
+        <br />
+        4x MAC500
+      </p>
+
+      <image src="beispiel04.jpg" align="left">Solistenbeleuchtung:<br />vier Profiler und ein Verfolger</image>
+      <p>
+        Wir gehen ganz andere Wege. Euer TEN SING hat aus einem
+        schweizer Schwarzgeldkonto einen dicken Zustupf bekommen und ihr
+        beschliesst, der neuen Technik ihren Tribut zu zollen. Das
+        hintere Truss wird neu bestückt: drei 6bars und vier Moving Head
+        Profile, beispielsweise Martin MAC500 oder die billigeren und
+        kleineren und leichteren MAC250, alternativ auch Scanner. Mit
+        diesen Multifunktionsscheinwerfern kann man dann endlich richtig
+        schönes Lichtdesign machen. Moving head profile sind grob gesagt
+        auf drehbare Gestelle montierte Profilscheinwerfer. Zusätzlich
+        bekommen sie einen Farbwechler einmontiert; eine Iris, mit der
+        man den Strahl verkleinern kann; dazu sogennante »Gobos« oder
+        »Vignetten«, kleine Metallscheiben, in die man Muster einstanzen
+        kann, die dem Strahl dann eine entsprechende Form geben. Und
+        weils so schön ist, ist das alles noch (incl. der beweglichen
+        Halterung) per Fernsteuerung bedienbar, was eigentlich den
+        besonderen Reiz ausmacht. Das alles zusammen rechtfertigt
+        durchaus den Namen »Multifunktionsscheinwerfer« und eröffnet
+        vollkommen neue Möglichkeiten, insbesondere ist es jetzt
+        möglich, Lichtstrahlen zu bewegen.
+      </p>
+
+      <image src="beispiel05.jpg" align="right" />
+      <p>
+        Mit einem normalen Lichtpult lassen sich
+        Multifunktionsscheinwerfer nur sehr mühsam bewältigen; es muss
+        ein neues her, z.B. ein MA Scancommander, auch einer der
+        meistbenutzten kleinen Controller. Jeder MAC500 braucht
+        normalerweise 14 Kanäle zur Steuerung, wir wären jetzt also (mit
+        18 Scrollern) bei 92 benutzten Kanälen. Ein DMX-Kabel kann aber
+        bis zu 512 Kanäle übertragen, es besteht also noch keine Gefahr
+        zur Überlastung.
+      </p>
+
+      <h3>Bühne 8</h3>
+
+      <image src="buehne04.png" align="left" />
+      <p>
+        Frontlicht s.o.
+        <br />
+        Halber Traversenkreis, Durchmesser 6m
+        <br />
+        8x MAC500
+        <br />
+        5x MAC600
+      </p>
+
+      <p>
+        Nun kommen wir zur letzten Bühne, die auch eher experimentellen
+        Charakter hat. Neben den moving head profile Leuchten gibt es
+        auch moving head wash. Das sind - wieder grob gesagt -
+        Stufenlinsen statt Profiler. Sie geben also einen breiten, weich
+        begrenzten Strahl ab und sind vor allem als Ergänzung / Ersatz
+        für die PAR64 gedacht. Während die MAC500 ein Farbrad mit neun
+        verschiedenen Farben besitzen, ist es in MAC600 dank
+        subtraktiver Mischung möglich, über 16 Millionen (sic!) Farben
+        zu mischen. Man kann eine komplett rot eingefärbte Bühne innert
+        fünf Minuten in eine blaue Bühne übergehen lassen, ohne dass
+        jemand etwas merkt.
+      </p>
+
+      <p>
+        Wir stellen eine runde Traverse hin, die man (nicht gezeichnet)
+        sehr gut verankern muss, und hängen einige Leuchten rein,
+        zusätzlich noch drei auf den Boden, was für Moving Heads eine
+        äusserst gute Position ist.
+      </p>
+
+      <p>
+        Zur Steuerung kann man hier noch den Scancommander nehmen, bei
+        mehr als 16 Moving Heads gibt der aber den Geist auf und man
+        muss auf schwereres Gerät ausweichen.
+      </p>
+
+      <image src="beispiel06.jpg" align="left" />
+      <image src="beispiel07.jpg" align="left" />
+      <image src="beispiel08.jpg" align="left" />
+
+      <h3>Intelligentes vs. konventionelles Licht</h3>
+
+      <p>
+        Wie ihr seht, habe ich die Bühne erst mit PAR64 von oben bis
+        unten vollgestopft, bevor ich mit Moving Heads angekommen bin.
+        Das hat seinen Grund, da man für den Wert eines einzelnen Moving
+        Heads mindestens sechs normale Kannen bekommt, wenn nicht mehr.
+        Bevor eure Bühne also in Dunkelheit verschwindet, nur weil ihr
+        euch unbedingt vier MACs besorgen musstet, sorg dafür, dass ihr
+        genug Licht im Hintergrund habt. Hier geht es nicht um die
+        Anzahl Scheinwerfer total, sondern pro Farbe. Um ein anständiges
+        Lichtdesign machen zu können, braucht man mehr als zwei Kannen
+        pro Farbe, damit man die Bühne einfärben kann.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="vorbereitung" title="Vorbereitung">
+      <h3>Zwei Wochen vor der Show</h3>
+
+      <p>
+        Das wichtigste überhaupt ist, dass du die Show kennst. Im
+        Idealfall in- und auswendig. Ein simpler Ablaufplan auf deinem
+        Schoss hilft hier herzlich wenig, du musst wissen, wie Lieder
+        klingen, wie sie anfangen und aufhören, wo besondere Stellen
+        sind, wer wann singt (Chor oder Solo oder Instrumental?), bei
+        Tänzen ist das genauso wichtig. Nur so ist es möglich, sich in
+        die Show einzubringen statt sie eher zu stören. Das ist viel
+        verlangt, ich weiss. Ein Kompromiss ist der, dass du dir zwei
+        Wochen vor der Show CDs besorgst, auf denen die gespielten
+        Lieder und Tänze drauf sind. Die hörst du ab sofort zum
+        Aufwachen, zum Einschlafen und ca. 24 Stunden dazwischen. So
+        bekommst du ein Gefühl für die Musik, ohne viel tun zu müssen.
+        Vor allem beim Einschlafen kommt man oft auf gute Gedanken. Mach
+        die Augen zu, lehn dich zurück und lass das Lied wirken – welche
+        Farben verbindest du damit? Bewegungen? Stimmungen? Hell oder
+        dunkel? Schnell oder langsam? Wenn du ganz fleissig bist, machst
+        du dir danach noch Notizen, muss aber nicht sein. Es reicht,
+        wenn du dir die Gedanken mal gemacht hast. Mit einiger Übung
+        musst du dann nicht abends im Bett liegen sondern kannst das ein
+        paar Stunden vor der Generalprobe machen.
+      </p>
+
+      <p>
+        Wichtig ist aber trotzdem, dass Licht von einem unerfahrenen
+        Designer, der die Show nicht kennt, von vornherein schlecht ist.
+        Mach dir die Mühe und lerne die Show richtig kennen. Geh an
+        Proben eures TEN SINGs, idealerweise singst du im Chor mit. Nur
+        so kannst du der Gefahr entrinnen, eine schlechte Show zu
+        machen.
+      </p>
+
+      <h3>Ein paar Stunden vor der Generalprobe</h3>
+
+      <p>
+        Setz dich mit eurem Regisseur oder jemandem, der sich wirklich
+        gut mit der Show auskennt, zusammen, am besten noch mit jemandem
+        vom Tanz und Theater. Dann arbeitet ihr zusammen das Lichtdesign
+        aus. Idealerweise hast du das schon vorbereitet und
+        demonstrierst es nur. Die Leute von Tanz und Theater bringen
+        ihre Wünsche ein und du notierst am besten alles auf einem
+        Schmierzettel. Dann programmierst du endgültig und schreibst dir
+        einen eigenen Ablauf mit allem, was du wissen musst über
+        Sonderwünsche etc.
+      </p>
+
+      <h3>Während der Generalprobe</h3>
+
+      <p>
+        Vor der Generalprobe steht das Lichtdesign! Vor allem steht die
+        Anlage schon längst und alle Scheinwerfer sind eingeleuchtet. Es
+        hat keinen Sinn, eine Generalprobe zu machen, bei der noch nicht
+        mal die Technik dabei ist. Also früh genug anfangen mit
+        Aufbauen! Während der Probe hast du noch die Chance zu spielen
+        und zu probieren. Halte dich grob an die Vorgaben auf deinem
+        Plan, aber trau dich, auch mal spontan Dinge auszuprobieren.
+        Dafür ist es wichtig, das Pult gut zu beherrschen. Schreib dir
+        auf, wenn du etwas Gutes entdeckt hast.
+      </p>
+
+      <h3>Nach der Generalprobe</h3>
+
+      <p>
+        Geh deine Änderungen noch mal durch und ändere die
+        Programmierung, wo nötig. Dann wird das Pult abgeschlossen und
+        bis zur Show ändert keiner mehr was dran. Lass ab jetzt keinen
+        mehr ans Pult, der dort nichts zu suchen hat (also alle ausser
+        dir selber)! Das gilt eigentlich prinzipiell, hat jetzt aber
+        besondere Bedeutung.
+      </p>
+
+      <h3>Zwei Stunden vor der Show</h3>
+
+      <p>
+        Funktionstest aller Lampen. Noch mal kurz die Szenen durchgehen,
+        wenn nötig. Dann passiert bis zum Beginn der Show genau gar
+        nichts mehr. Am besten machst du das Licht komplett aus oder ein
+        schwaches Arbeitslicht an, während das Saallicht noch an ist.
+        Sobald der erste Besucher den Besucherraum betreten hat, wird
+        nichts mehr angerührt. Und dann kann die Show losgehen…
+      </p>
+
+      <h3>Während der Show</h3>
+
+      <p>
+        Du hattest genügend Zeit, dein Design auszudenken, jetzt hat die
+        Spielerei ein Ende. Keine Experimente, keine Versuche, halte
+        dich strikt an deinen Ablaufplan. Eventuell musst du beim
+        Theater ein wenig spontan werden, sollte aber kein Problem sein.
+        Denk daran, vielleicht ab und zu ein Foto zu machen, die kann
+        man bei zukünftigen Auftritten oft gut als Anregung gebrauchen.
+        Noch besser ist es, ein Video aufzunehmen, um das Lichtdesign
+        später zu analysieren und zu verbessern.
+      </p>
+
+      <h3>Nach der Show</h3>
+
+      <p>
+        Abbauen. Leider. Muss sein. Je schneller das erledigt ist, umso
+        schneller bekommst du dein wohlverdientes Bier (metaphorisch
+        natürlich…).
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="wie" title="Wie beleuchte ich was?">
+      <p>
+        Verlass dich hier auf deinen gesunden Menschenverstand. Ein
+        langsames Lied wird mit wenig Licht bearbeitet, schnelle Lieder
+        dürfen gerne etwas hektischer sein. Abwechslung zählt. Und immer
+        im Hinterkopf behalten, was deine Aufgabe ist: Das Geschehen auf
+        der Bühne unterstützen, nicht zeigen, wie toll die Lichtanlage
+        ist.
+      </p>
+
+      <p>
+        Das Frontlicht heisst auch Grundlicht und so sollte es auch
+        benutzt werden. Die weissen Leuchten sind praktisch immer an,
+        mal dunkler, mal heller. Ohne sie sieht man nur schwarze Umrisse
+        vor dem Effektlicht (kann mal ganz reizvoll sein. Aber eben nur
+        manchmal).
+      </p>
+
+      <h3>Theater</h3>
+
+      <p>
+        Das ist bei TEN SING recht einfach. Frontlicht voll aufdrehen,
+        kein Effektlicht, höchstens weises. Kein Spot. Fertig. Manchmal
+        erwartet die Regie von dir Kunststücke, wie Überblendungen oder
+        ähnliches. Weigere dich, wenn du nicht ein Skript (»Haha« bei
+        Spontantheater…) oder eine Regieassistenz hast und ihr das
+        vorher mal probiert habt, sonst funktioniert das eh nicht.
+      </p>
+
+      <h3>Ruhige Musik</h3>
+
+      <p>
+        Hier bietet sich an, mit wenigen Farben zu arbeiten. Halte das
+        komplette Lied in nur ein oder zwei Farben. Es tut nicht weh,
+        einmal ein ganzes Lied lang nur zwei rote und zwei blaue
+        Scheinwerfer aufzuziehen und stehen zu lassen bis zum Ende des
+        Lieds, auch wenn dir dann schnell langweilig wird. Mit dem Licht
+        kannst du zusätzlich zu Lautstärke und Tempo ein weiteres
+        Element einbauen, das einen Kontrast zwischen ruhiger und
+        hektischer Musik schafft. Nutze dies aus. Und nicht vergessen:
+        Frontlicht!
+      </p>
+
+      <h3>Schnelle Musik</h3>
+
+      <p>
+        Auch bei hektischer Musik darf man einem Lied ein Farben-Design
+        verpassen, solange man genug Scheinwerfer hat. Mit vier 4bars
+        kann man sogar schnelle Lieder mit nur zwei Farben beleuchten.
+        Ansonsten gilt: Lauflichter was das Zeug hält, am besten im Takt
+        der Musik. Und nicht vergessen: Frontlicht!
+      </p>
+
+      <image src="effektlicht.jpg" align="right">So nicht! Effektlicht ohne Frontlicht</image>
+      <h3>Tänze</h3>
+      <p>
+        Entgegen jeder Vorstellung darf ein Lichttechniker auch bei
+        Tänzen nicht einfach blind die Sau rauslassen. Hier ist das
+        Frontlicht z.B. wichtiger als bei normalen Songs, da ja nicht
+        die Musik sondern Bewegungen interessieren. Ich verstehe nicht,
+        wie es manche Techniker schaffen, bei einem Tanz das Frontlicht
+        auszumachen, um es nach dem Tanz wieder anzumachen… Hier gilt
+        es, den Wünschen der Tänzer 100%ig zu gehorchen. Wenn sie an
+        einer bestimmten Stelle ein bestimmtes Licht haben wollen, wird
+        das schon seinen Sinn machen. Und nicht vergessen: Frontlicht!
+        Hatte ich das eigentlich schon mal erwähnt?
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="tipps" title="Tipps und Tricks">
+      <p>
+        Dieses Kapitel soll zu einem Art Nachschlagewerk werden für
+        Probleme und Fehler aller Art, die auftreten können. Wenn ihr
+        Vorschläge habt, lasst es mich sofort wissen!
+      </p>
+
+      <h3>Nebel</h3>
+
+      <p>
+        Nebel ist im Allgemeinen nur dazu da, um Lichtstrahlen sichtbar
+        zu machen. Sein Sinn ist nicht, die Bühne wirklich einzunebeln,
+        ausser in speziellen Fällen. Für gewöhnlich stört zu viel Nebel,
+        da durch ihn der Chor an Stimme verliert und an Husten gewinnt.
+        Ausserdem machen hohe Dichten das Frontlicht sichtbar, was
+        normalerweise nicht gewünscht wird. Wenn ihr keine regelbare
+        Nebelmaschine habt, heisst die Devise: Sobald ein Lied zu Ende
+        ist, wieder ein wenig auf die Taste drücken. Vor dem Anfang des
+        nächsten Liedes ist Ruhe. Einerseits, um dem Nebel Zeit zum
+        Verteilen und dem Chor zum Durchatmen zu geben, andererseits,
+        weil das Nebelzischen sich sehr schlecht auf Aufnahmen macht und
+        schon so manches Recording unbrauchbar gemacht hat. Ein kleiner
+        Trick, um Bodennebel zu erzeugen: Bohre in eine Plastikwanne
+        zwei grosse Löcher, so dass du eine Metallröhre durchstecken
+        kannst. Das Ganze abdichten und kaltes Wasser einfüllen. Wenn du
+        jetzt am einen Ende mit der Nebelmaschine reinpustest, bekommst
+        du schweren, wattigen Nebel.
+      </p>
+
+      <p>
+        Besser als jede Nebelmaschine sind sogenannte »Hazer«, also
+        Dunstmaschinen. Diese erzeugen einen kaum sichtbaren Dunst, der
+        genau den richtigen Effekt hat.
+      </p>
+
+      <h3>Farbiges Frontlicht</h3>
+
+      <p>
+        Heikles Thema. Eigentlich ist das bei TEN SING der meistgesehene
+        Fehler überhaupt. Grüne Gesichter sind einfach hässlich. Blau
+        bringt sowieso keine Lichtleistung (nichtmal 15% gegenüber
+        weiss). Bleiben nur noch Rot- und Gelbtöne. Das sind auch die
+        einzigen Farben, die von vorne Sinn machen. Warme Farben kommen
+        allerdings automatisch, wenn ihr Kunstlichtscheinwerfer (alle
+        oben beschriebenen ausser Multifunktionsleuchten) mit unter 80%
+        Leistung fahrt. Ich bin prinzipiell gegen jede Farbfolie vor
+        Frontlichtscheinwerfern, aber viele werden mir hier
+        widersprechen…
+      </p>
+
+      <p>
+        Selten kann man farbiges Licht gut gebrauchen, um eben gerade
+        obige Effekte zu erreichen: Den Solisten weiss beleuchten und
+        den Rest (Band und Chor) in rotes Licht eintauchen. Mir
+        persönlich gefällt die Variante besser, bei der man alle von
+        vorne weiss anleuchtet und von hinten die Farben gibt. Hat
+        denselben Effekt, ausser dass man die Gesichter und Körper von
+        Band und Chor noch erkennen kann.
+      </p>
+
+      <p>
+        Im Theater wird manchmal farbiges Frontlicht gewünscht. In
+        diesem Falle würde ich aber stets eine Kombination anwenden,
+        beispielsweise steil von rechts und links grünes Licht, um den
+        Farbeffekt zu erzielen, von vorne oben aber weisser Spot, um dem
+        Gesicht Kontraste zu geben.
+      </p>
+
+      <h3>Umbaulicht</h3>
+
+      <p>
+        Während den Pausen zwischen den Liedern absolute Dunkelheit
+        herrschen zu lassen kann zu lustigen unfreiwilligen Showeinlagen
+        der Requisiteure führen. Um das zu verhindern benutzt man
+        während den Umbaupausen ein Umbaulicht, das dezent und dunkel
+        sein sollte. Hierfür eignen sich zwei hellblaue Scheinwerfer von
+        vorne, die auf 50% aufgedreht werden. Alternativ kann man auch
+        die blauen Scheinwerfer von hinten ein bisschen aufziehen.
+      </p>
+
+      <h3>Summen auf den Tonkabeln</h3>
+
+      <p>
+        Das kommt von gedimmten Lastkabeln, die parallel zu Tonkabeln
+        verlegt wurden. Durch die Oberwellen, die von den Dimmerpacks
+        beim Phasenanschnitt erzeugt werden, gelangen Einstreuungen in
+        die Tonkabel. Dieser Effekt tritt nur bei Leuchten auf, die
+        gedimmt werden, nicht aber bei normalen Stromkabeln,
+        Starkstromkabeln oder DMX-Leitungen. Eine Lösung ist die
+        Platzierung der Dimmer und der Lastkabel unter der Bühne, währen
+        die Tonkabel auf der Bühne liegen. Müssen Leitungen doch einmal
+        gekreuzt werden, verhindert ein Winkel von 90° das Schlimmste.
+      </p>
+
+      <h3>Hot Patching</h3>
+
+      <p>
+        Unsere Standardbühne verwendet vier Stative mit jeweils vier
+        Leuchten (2x 4bar und 4x Stufenlinse). Dafür verwenden wir einen
+        12-Kanal-Dimmer, der normalerweise zwei Harting- Ausgänge hat
+        mit je vier Kanälen. Wie bringen wir das nun auf die vier
+        Lastkabel, die dann zu den entsprechenden Stativen führen? Die
+        Lösung heisst Hot Patching. In unserem Falle hätten wir ein Rack
+        mit zwei Harting-Eingängen und vier Harting-Ausgängen. Effektiv
+        haben wir also die zwölf Eingangskanäle, die wir auf die vier
+        mal sechs Ausgangskanäle »patchen« müssen. Dazu ziehen wir an
+        einem Art Steckbrett von jedem Eingangskanal eine Verbindung zu
+        dem Ausgangskanal, der von diesem Kanal bedient werden soll. Es
+        ist auch möglich, einen Eingang mit mehreren Ausgängen zu
+        verbinden, um Kanäle zu sparen. So können wir zum Beispiel
+        Einganskanal 1-4 jeweils auf Kanal 1-4 der Frontstative, Kanäle
+        5-8 auf das linke Effektstativ und 9-12 auf das rechte
+        Effektstativ legen.
+      </p>
+
+      <h3>Verfolger</h3>
+
+      <p>
+        Die Bedienung eines Verfolgerscheinwerfers ist nicht annähernd
+        so einfach und intuitiv, wie es den meisten scheint. Hier
+        braucht man eine Menge Übung und vor allem Kenntnis der Show!
+        Einige Richtlinien: Den Lichtkegel lieber etwas zu gross als zu
+        klein machen, auf keinen Fall die Füsse abschneiden, das Zentrum
+        des Strahls ist nicht der Kopf sondern der Oberkörper. Bei
+        Theater, Tänzen und Chorliedern hat der Spot nichts zu suchen.
+        Finger weg von den Farbscheiben! Ein Spotlight ist immer und
+        absolut immer weiss. Halt die Kiste ruhig – wenn sich der Solist
+        viel auf der Stelle bewegt, gib ihm einen grösseren Kegel und
+        lass den Spot einfach stehen.
+      </p>
+
+      <h3>Tricks aus dem Theater</h3>
+
+      <p>
+        Wenn ihr eine Bühne habt, die nach oben viel Freiraum und dort
+        auch Aufhängemöglichkeiten bitet, solltet ihr Oberlicht
+        unbedingt in Erwägung ziehen. Zwei starke Stufenlinsen oder
+        HMI-Fluter leuchten senkrecht von oben auf die komplette Bühne.
+        Der Vorteil ist, dass sie nur den Boden beleuchten, wenn keiner
+        da steht. Wenn jemand da steht, bietet das Oberlicht eine
+        perfekte Ergänzung zum Frontlicht.
+      </p>
+
+      <p>
+        Um einen geheimnisvollen oder gruseligen Effekt zu erzielen,
+        blast gekühlten auf die Bühne, der dann mehr oder weniger am
+        Boden bleibt. Dann arbeitet ihr mit zweilagigem Licht, zum
+        Beispiel unten weiss, oben rot.
+      </p>
+
+      <p>
+        Habt ihr Mädchen mit langen Haaren (hat ja wohl jeder Ten Sing),
+        kommen selbige – insbesondere bei Locken – am besten zur
+        Geltung, wenn sie von hinten mit weissem Licht zusätzlich
+        aufgehellt werden. In Verbindung mit Nebel ergibt das einen
+        wunderschönen Engel-Effekt. Generell ist weisses Licht von
+        hinten, oben und der Seite gerade beim Theater nie falsch.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="literatur" title="Literatur">
+      <p>
+        Das Standardwerk der Theaterbeleuchtung überhaupt, das jeder
+        Beleuchter im Regal stehen haben sollte, ist »Faszination Licht«
+        von Prof. Max Keller, ISBN 3-7913-2093-9. Es sollte auch in
+        jeder Universitätsbibliothek im Bereich Architektur zu finden
+        sein.
+      </p>
+
+      <p>
+        Etwas ungewöhnliche Lektüre ist der Mietkatalog der Procon
+        MultiMedia AG, Deutschlands grösstem Anbieter für
+        Beleuchtungs-und Bühnentechnik. Hier drin findet ihr alles, was
+        ihr je zum Beleuchten brauchen werdet, und lehrreich ist er
+        dazu. Den Katalog gibt es kostenlos auf der Homepage
+        <a href="http://www.procon-online.de/">
+          http://www.procon-online.de/
+        </a>
+        .
+      </p>
+
+      <p>
+        Ideen für Lichtdesign bekommt ihr auf jeder Homepage von
+        Veranstaltungstechnik- Betrieben, die immer eine kleine Galerie
+        unterhalten, wo man sich mal anschauen kann, wie die beleuchten.
+        Es ist immer gut, sich von überall her Anregungen zu holen… auch
+        Konzerte, Shows, Musicals, Theater, Opern und andere kleine
+        Bühnenauftritte bieten immer wieder die Chance, dazuzulernen.
+      </p>
+    </chapter>
+
+    <chapter toc="true" name="glossar" title="Glossar">
+      <p>
+        In diesem Stichwortverzeichnis werden einige der wichtigsten
+        Begriffe der Beleuchtungstechnik beschrieben.
+      </p>
+
+      <dl>
+        <dt>Achromatische Farben</dt>
+        <dd>
+          Farben ohne Buntwerte, also Schwarz, Weiss und alle Grautöne
+        </dd>
+
+        <dt>ACL</dt>
+        <dd>
+          »aircraft landing light« – PAR64-Lampe mit Vergenz von 2°.
+        </dd>
+
+        <dt>Babyspot</dt>
+        <dd>Kleiner Punktscheinwerfer, z.B. PAR36.</dd>
+
+        <dt>Additive Farbmischung</dt>
+        <dd>
+          Mischung von unterschiedlich farbigem Licht mit mindestens
+          zwei Lichtquellen.
+        </dd>
+
+        <dt>Black Out</dt>
+        <dd>Alles Licht aus.</dd>
+
+        <dt>Blendenschieber</dt>
+        <dd>
+          Metallschieber in Profilscheinwerfern und Verfogern, mit denen
+          der Lichtstrahl beschnitten werden kann.
+        </dd>
+
+        <dt>Brennpunkt</dt>
+        <dd>
+          Der Punkt, an dem sich bei einer Linse oder einem Reflektor
+          parallel einfallende Lichtstrahlen schneiden.
+        </dd>
+
+        <dt>Brennebene</dt>
+        <dd>
+          Die Ebene senkrecht zur optischen Achse, in der der Brennpunkt
+          liegt. Blendenschieber, Gobos und Iris befinden sich hier (es
+          kann auch mehrere Brennebenen geben).
+        </dd>
+
+        <dt>Brennweite</dt>
+        <dd>Abstand der Linse oder des Reflektors zum Brennpunkt.</dd>
+
+        <dt>Chaser</dt>
+        <dd>Lauflicht.</dd>
+
+        <dt>Dichroitische Filter</dt>
+        <dd>
+          Interferenzfilter, die im Gegensatz zu normalen Filtern das
+          nicht durchgelassene Licht nicht absorbieren, sondern
+          reflektieren. Sie werden nicht so heiss und liefern schärfere
+          Farben.
+        </dd>
+
+        <dt>Diffusionsfilter</dt>
+        <dd>
+          Tüllgewebe, das zur Zerstreuung des Lichts in den Strahl
+          eingebracht wird. Auf der Bühne meistens Frostfilter genannt.
+        </dd>
+
+        <dt>Dimmer</dt>
+        <dd>
+          Gerät zur Verstellung der Helligkeit von elektrischen
+          Lichtquellen. Wird normalerweise digital über das
+          DMX-Protokoll gesteuert.
+        </dd>
+
+
+        <dt>DIN</dt>
+        <dd>Deutsches Institut für Normung e.V.</dd>
+
+        <dt>DMX 512</dt>
+        <dd>
+          »Digital MultipleXing« – International anerkannter Standard
+          zur digitalen Übermittlung von Steuersignalen. Über ein
+          5poliges XLR-Kabel werden bis zu 512 Werte digital und daher
+          verzögerungsfrei übertragen. Die Aulösung beträgt 8 Bit pro
+          Kanal, das entspricht 256 Helligkeitsstufen. DMX wird auch zur
+          Steuerung von Moving Heads, Scannern, Farbwechslern und
+          allerlei anderen Dingen verwendet. Wichtig: Obwohl das
+          Standard-DMX-Kabel 5polig ist, sind nur drei Adern belegt. Es
+          kann also über einen Adapter auf ein 3poliges XLR-Kabel
+          gepatcht werden, von denen normalerweise genügend rumliegen.
+          Insbesondere kann zur Übertragung vom Pult zur Bühne das
+          Ton-Multicore benutzt werden.
+        </dd>
+
+        <dt>Ellipsenspiegelscheinwerfer</dt>
+        <dd>Bezeichnung für einen Profilscheinwerfer.</dd>
+
+        <dt>EVG</dt>
+        <dd>Bezeichnung für Elektrisches VorschaltGerät.</dd>
+
+        <dt>Farbenlehre</dt>
+        <dd>
+          Theorie über das Verstehen der Farben. Angefangen von Newton
+          über Goethe ist die heute allgemein akzeptierte Theorie
+          diejenige von Harald Küpper.
+        </dd>
+
+        <dt>Farbenraum</dt>
+        <dd>
+          Definition von Farben nach Farbton (»hue«), Sättigung
+          (»saturation«) und Helligkeit (»brightness«).
+        </dd>
+
+        <dt>Farbfilter</dt>
+        <dd>
+          Meistens aus Kunststoff gefertigte, farbige Folie, die in den
+          Strahlengang montiert wird, um das austretende Licht
+          einzufärben.
+        </dd>
+
+        <dt>Farbort</dt>
+        <dd>
+          Farbort einer Lichquelle, bezogen auf den Planckschen
+          Kurvenzug mit den Juddschen Geraden und den x-und y-
+          Koordinaten. (sorry, das musste einfach rein)
+        </dd>
+
+        <dt>Farbperspektive</dt>
+        <dd>
+          Einfluss von Farben in bezug auf die Tiefenwirkung: Dunkle und
+          kalte Farben bestimmen die Tiefe, helle und warme Farben den
+          Vordergrund.
+        </dd>
+
+        <dt>Farbtemperatur</dt>
+        <dd>
+          Wird in Kelvin gemessen. Bezeichnet allgemein die Helligkeit
+          und Weissfarbe einer Lampe. Kunstlichtlampen brennen unter
+          5000K, Tageslichtlampen darüber. Je heisser eine Lampe brennt,
+          desto weisser ist ihr Licht. Kälteres Licht wirkt rötlicher
+          (Glühen).
+        </dd>
+
+        <dt>Fluter</dt>
+        <dd>
+          Auch Strahler. Einfachster Scheinwerfer, meist ein
+          Rinnenspiegel mit einem Halogenbrennstab.
+        </dd>
+
+        <dt>Fokussieren</dt>
+        <dd>Die Schärfe einstellen.</dd>
+
+        <dt>Fresnel-Linse</dt>
+        <dd>
+          Auch Stufenlinse. Linse, bei der die Brechung der
+          Lichtstrahlen auf einzelne, sägezahnförmig angeordnete Ringe
+          aufgeteilt ist.
+        </dd>
+
+        <dt>Fussrampe</dt>
+        <dd>Lichposition vorne an der Bühnenvorderkante.</dd>
+
+        <dt>Gaffer</dt>
+        <dd>
+          Verantwortlicher Beleuchter für Aufbau und Betrieb und Chef
+          der Mannschaft. Jetzt wisst ihr endlich auch, woher der Name
+          des berühmten Gaffer-Tapes kommt.
+        </dd>
+
+        <dt>Gobo</dt>
+        <dd>
+          Auch Vignette. Aus hitzefestem Blech oder Glas hergestellte
+          Scheibe, mit der jede Form von Lichtbegrenzung zu erzielen
+          ist. Werden hauptächlich in Scannern und Moving Heads
+          verwendet.
+        </dd>
+
+
+        <dt>Grundfarben</dt>
+        <dd>
+          Elementare Farben. Man unterscheidet drei Arten von
+          Grundarten. Urfarben: Violettblau, Grün, Orangerot (Farben der
+          Sehzapfen im Auge). Additive Grundfarben: Orangerot, Grün,
+          Violettblau (RGB). Subtraktive Grundfarben: Cyanblau,
+          Magentarot, Gelb (CMY).
+        </dd>
+
+        <dt>Harting</dt>
+        <dd>
+          Herstellerfirma einer mehrpoligen Steckerverbindung, bei der
+          mehrere Lastkabel in einem Multicore geführt werden.
+        </dd>
+
+        <dt>Intercom</dt>
+        <dd>
+          Hör- und Sprechverbindung zwischen einzelnen Bedienpositionen,
+          z.B. zwischen Beleuchter, Tontechniker, Inspizienz und Regie.
+        </dd>
+
+        <dt>Interferenz</dt>
+        <dd>Verstärken oder Verschlucken von Wellen einer Frequenz.</dd>
+
+        <dt>Irisblende</dt>
+        <dd>
+          Mechanische Lamellen, die einen Öffnungswinkel stufenlos
+          verkleinern oder vergössern.
+        </dd>
+
+        <dt>Kalte Farben</dt>
+        <dd>Blau mit allen Zwischentönen bis zu Violett.</dd>
+
+        <dt>Komplementärfarben</dt>
+        <dd>
+          Farbe und ihre Ergänzungsfarbe, die beim Mischen Weiss oder
+          Schwarz ergeben.
+        </dd>
+
+        <dt>Konversionsfilter</dt>
+        <dd>
+          Folien, die künstliches Tageslicht dem Glühlicht anpassen.
+        </dd>
+
+        <dt>Kunstlicht</dt>
+        <dd>Künstliches Licht mit Farbtemperatur unter 5000K.</dd>
+
+        <dt>Magazin</dt>
+        <dd>
+          Halterung vor dem Scheinwerfer für Filter und Torblenden.
+        </dd>
+
+        <dt>Moving Head</dt>
+        <dd>
+          Multifunktionsscheinwerfer, bei dem das gesamte Gehäuse auf
+          einem beweglichen Gestell montiert ist.
+        </dd>
+
+        <dt>Optische Achse</dt>
+        <dd>
+          Mittelachse einer optischen Anordnung, z.B. Glühfaden –
+          Irisblende – Linsenmitte.
+        </dd>
+
+        <dt>PAR-Lampe</dt>
+        <dd>
+          »parabolic aluminized reflector« – Lampe, die mit einem
+          parabolischen Reflektor fest verbunden ist. Robust und billig,
+          in unterschiedlichen Leistungs- und Vergenzvarianten
+          erhältlich.
+        </dd>
+
+
+        <dt>Shutter</dt>
+        <dd>
+          Auch Jalousie. Gerät zur Verdunkelung des Lichtstrahls, wird
+          bei nicht dimmbaren Scheinwerfern verwendet, insbesondere bei
+          Moving Heads und Scannern.
+        </dd>
+
+        <dt>Spotlight</dt>
+        <dd>Konzentrierter Lichtstrahl.</dd>
+
+        <dt>Stufenlinse</dt>
+        <dd>Fresnellinse.</dd>
+
+        <dt>Subtraktive Farbmischung</dt>
+        <dd>Mischung von Licht mit nur einer Lichtquelle.</dd>
+
+
+        <dt>Tageslicht</dt>
+        <dd>
+          Künstliches Licht, welches dem natürlichem Licht ähnlich ist
+          mit Farbtemperatur über 5000K.
+        </dd>
+
+        <dt>Thyristor</dt>
+        <dd>
+          Halbleiterbauelement zum Schalten starker elektrischer Ströme.
+        </dd>
+
+
+        <dt>Torblende</dt>
+        <dd>
+          Zwei- oder vierflügelige schwenkbare Metallflächen, die in
+          einem Rahmen zusammengefasst sind und in das Magazin eines
+          Scheinwerfers geschoben werden.
+        </dd>
+
+        <dt>Tüll</dt>
+        <dd>Feinmaschiges Drahtgeflecht zur Lichtreduzierung.</dd>
+
+        <dt>VDE</dt>
+        <dd>
+          Verband Deutscher Elektrotechniker. Verband zur Erstellung von
+          gesetzlich anerkannten elektrischen Sicherheitsvorschriften
+        </dd>
+
+
+        <dt>Vergenz</dt>
+        <dd>Öffnungswinkel von optischen Strahlen.</dd>
+
+        <dt>VStättV</dt>
+        <dd>
+          Versammlungsstättenverordnung – Bauaufsichtliche Vorschriften
+          für Theater, Versammlungsstätten und ähnliche bauliche
+          Anlagen. Zusammengefasst unter
+          <a href="http://www.versammlungsstaettenverordnung.de/">
+            DIN 18600
+          </a>
+          .
+        </dd>
+      </dl>
+    </chapter>
+
+    <chapter toc="true" name="credits" title="Dankeschön!">
+      <p>
+        Viele Bilder aus diesem Turorial stammen aus dem Mietkatalog der
+        <a href="http://www.procon-online.de/">Procon MultiMedia AG</a>,
+        praktisch alle Abbildungen von Scheinwerfern und viele Fotos
+        von Bühnen.
+      </p>
+
+      <p>
+        Zusätzliche Bühnenfotos stammen von der
+        <a href="http://www.brasser.ch/">Firma Brasser</a>
+        in Zitzers, Schweiz.
+      </p>
+
+      <p>
+        Die gerenderten Bühnen habei ich teilweise mit
+        <a href="http://www.povray.org/">POV-Ray</a>
+        modelliert und gerendert. Die CAD-Zeichnungen und einige
+        gerenderte Bühnen wurden mit
+        <a href="http://www.prolight.com.pl/_en/projekty_wysiwyg.php">
+          WYSIWYG
+        </a>
+        erstellt.
+      </p>
+
+      <p>
+        Das Glossar ist stark an dasjenige von Prof. Max Keller aus
+        seinem Buch
+        <a
+          href="http://www.amazon.de/Faszination-Licht-Max-Keller/dp/379133235X/">
+          »Faszination Licht«
+        </a>
+        angelehnt. Aus demselben Buch stammen auch die meisten meiner
+        theoretischen Kenntnisse über Beleuchtung und einige wenige
+        Bilder.
+      </p>
+
+      <h2>Das Ende</h2>
+
+      <p>
+        Vielen Dank fürs Durchhalten bis hierher. Für Fragen, Anregungen
+        und Kritik bin ich selbstverständlich immer zu haben.
+      </p>
+
+      <p>
+        Wie man untenstehender Creative-Commons-Lizenz entnehmen kann,
+        darf dieses Tutorial frei verwendet und verbreitet werden, sofern
+        es sich nicht um eine kommerzielle Anwendung handelt. Inhaltliche
+        Veränderungen wie zum Beispiel Auszüge oder Veränderungen des Textes
+        sind hingegen nicht gestattet. Für Bildungseinrichtungen vergebe
+        ich diese Genehmigung im Allgemeinen nach einer kurzen Anfrage
+        an <a href="mailto:philipp@jardas.de">philipp@jardas.de</a>.
+      </p>
+
+      <p>Möge euch ein Licht aufgehen!</p>
+
+      <h2>Download</h2>
+
+      <p>
+        Du kannst das Tutorial Lichttechnik auch als PDF herunterladen
+	und ausdrucken: <a href="tutorial_lichttechnik.pdf">Tutorial Lichttechnik
+        als PDF</a>. Der Inhalt des PDFs ist nicht ganz auf dem aktuellen
+        Stand.
+      </p>
+    </chapter>
+  </chapters>
+
+  <creative-commons-license
+    title="Attribution-Noncommercial-No Derivative Works 3.0 Germany License"
+    url="http://creativecommons.org/licenses/by-nc-nd/3.0/de/"
+    image="http://i.creativecommons.org/l/by-nc-nd/3.0/de/88x31.png">
+    <licence-permits url="http://web.resource.org/cc/Reproduction" />
+    <licence-permits url="http://web.resource.org/cc/Distribution" />
+    <licence-requires url="http://web.resource.org/cc/Notice" />
+    <licence-requires url="http://web.resource.org/cc/Attribution" />
+    <licence-prohibits url="http://web.resource.org/cc/CommercialUse" />
+    <licence-prohibits url="http://web.resource.org/cc/DerivativeWorks" />
+  </creative-commons-license>
+</book>
