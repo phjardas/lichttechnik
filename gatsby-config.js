@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/lichttechnik",
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Tutorial Lichttechnik bei TEN SING`,
+    description: `In diesem Tutorial könnt ihr lernen, wie man mit wenig Aufwand ein TEN SING Konzert ins richtige Licht rückt. Angefangen von der richtigen Wahl der Scheinwerfer und Technik und deren Positionierung über Grundlagen der Beleuchtung bis hin zu Basics des Lichtdesigns.`,
+    author: `Philipp Jardas <philipp@jardas.de>`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Tutorial Lichttechnik bei TEN SING`,
+        short_name: `Lichttechnik`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/led.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

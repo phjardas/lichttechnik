@@ -1,32 +1,52 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { makeStyles, Typography } from "@material-ui/core"
 import Img from "gatsby-image"
+import React from "react"
 
-/*
- * This component is built using `gatsby-image` to automatically serve optimized
- * images with lazy loading and reduced file sizes. The image is loaded using a
- * `useStaticQuery`, which allows us to load the image from directly within this
- * component, rather than having to pass the image data down from pages.
- *
- * For more information, see the docs:
- * - `gatsby-image`: https://gatsby.dev/gatsby-image
- * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
- */
+const useStyles = makeStyles(({ spacing }) => ({
+  wrapper: {
+    textAlign: "center",
+  },
+  wrapperFluid: {
+    margin: `${spacing(2)}px 0`,
+  },
+  wrapperFixed: {
+    display: "inline-block",
+    margin: spacing(2),
+  },
+  wrapperFloat_left: {
+    float: "left",
+    marginLeft: 0,
+    marginRight: spacing(4),
+  },
+  wrapperFloat_right: {
+    float: "right",
+    marginLeft: spacing(4),
+    marginRight: 0,
+  },
+  caption: {
+    marginTop: spacing(1),
+  },
+}))
 
-const Image = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+export default function Image({ alt, fluid, float, ...props }) {
+  const classes = useStyles()
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <div
+      className={`${classes.wrapper} ${
+        fluid ? classes.wrapperFluid : classes.wrapperFixed
+      } ${float ? classes[`wrapperFloat_${float}`] : ""}`}
+    >
+      <Img fluid={fluid} alt={alt} {...props} />
+      {alt && (
+        <Typography
+          variant="caption"
+          component="div"
+          className={classes.caption}
+        >
+          {alt}
+        </Typography>
+      )}
+    </div>
+  )
 }
-
-export default Image

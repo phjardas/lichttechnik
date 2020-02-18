@@ -1,18 +1,22 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
+import { Container, makeStyles, Typography } from "@material-ui/core"
+import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
+import Helmet from "react-helmet"
+import Footer from "./footer"
 import Header from "./header"
-import "./layout.css"
+import { PagesProvider } from "./page"
+import SEO from "./seo"
+import ThemeProvider from "./theme"
 
-const Layout = ({ children }) => {
+const useStyles = makeStyles(({ spacing }) => ({
+  main: {
+    marginTop: 64 + spacing(2),
+  },
+}))
+
+export default function Layout({ title, children }) {
+  const classes = useStyles()
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,28 +28,24 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    </>
+    <ThemeProvider>
+      <PagesProvider>
+        <Helmet>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          />
+        </Helmet>
+        <SEO title={title} />
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <Container component="main" maxWidth="sm" className={classes.main}>
+          <Typography variant="h3" component="h1" gutterBottom>
+            {title}
+          </Typography>
+          {children}
+        </Container>
+        <Footer />
+      </PagesProvider>
+    </ThemeProvider>
   )
 }
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
-
-export default Layout
