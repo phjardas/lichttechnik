@@ -16,6 +16,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    "gatsby-plugin-material-ui",
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-3900768-2",
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -26,6 +33,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/led.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [{ family: "Roboto", variants: [300, 400, 500, 700] }],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
