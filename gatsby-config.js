@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     "gatsby-plugin-material-ui",
+    "gatsby-plugin-offline",
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
