@@ -1,7 +1,6 @@
 import { Container, makeStyles, Typography } from "@material-ui/core"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import Helmet from "react-helmet"
 import Footer from "./footer"
 import Header from "./header"
 import { PagesProvider } from "./page"
@@ -30,12 +29,6 @@ export default function Layout({ title, children }) {
   return (
     <ThemeProvider>
       <PagesProvider>
-        <Helmet>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-        </Helmet>
         <SEO title={title} />
         <Header siteTitle={data.site.siteMetadata.title} />
         <Container component="main" maxWidth="sm" className={classes.main}>

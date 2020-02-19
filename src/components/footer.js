@@ -17,7 +17,10 @@ const useStyles = makeStyles(({ palette, spacing }) => ({
   footer: {
     marginTop: spacing(4),
     padding: `${spacing(4)}px 0`,
-    background: palette.background.paper,
+    background: palette.background.default,
+  },
+  imprint: {
+    marginBottom: spacing(2),
   },
 }))
 
@@ -50,7 +53,15 @@ export default function Footer() {
             )}
           </nav>
         )}
-        <Typography variant="caption">
+        <Typography
+          variant="caption"
+          component="div"
+          className={classes.imprint}
+        >
+          Impressum: Philipp Jardas &lt;
+          <Link href="mailto:philipp@jardas.de">philipp@jardas.de</Link>&gt;
+        </Typography>
+        <Typography variant="caption" component="div">
           <Link
             rel="license"
             href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de"

@@ -1,3 +1,4 @@
+import { Tooltip } from "@material-ui/core"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import H2 from "../components/H2"
@@ -42,20 +43,26 @@ export default function IndexPage() {
         float="left"
       />
       <P>
-        Der <abbr title="engl. »to dim« bedeutet »abdunkeln«">Dimmer</abbr> ist
-        das Herzstück der ganzen Lichtanlage. Er regelt die 230V Netzspannung
-        herunter auf gerade so viel Prozent, wie man vom Pult aus einstellt. Das
-        funktioniert durch sogenannten Phasenanschnitt. Der am Ausgang
-        angehängte Scheinwerfer erhält eine Spannung, die bei jeder Halbwelle
-        der sinusförmigen Eingangsspannung um einen einstellbaren Phasenwinkel
-        vor dem Nulldurchgang eingeschaltet und beim Nulldurchgang wieder
-        ausgeschaltet wird. Dadurch kommt bei einem eingestellten Winkel von
-        180° 100% der Eingansspannung an, bei 0° kommt genau nichts an. Der
+        Der{" "}
+        <Tooltip title="engl. »to dim« bedeutet »abdunkeln«" arrow interactive>
+          <abbr>Dimmer</abbr>
+        </Tooltip>{" "}
+        ist das Herzstück der ganzen Lichtanlage. Er regelt die 230V
+        Netzspannung herunter auf gerade so viel Prozent, wie man vom Pult aus
+        einstellt. Das funktioniert durch sogenannten Phasenanschnitt. Der am
+        Ausgang angehängte Scheinwerfer erhält eine Spannung, die bei jeder
+        Halbwelle der sinusförmigen Eingangsspannung um einen einstellbaren
+        Phasenwinkel vor dem Nulldurchgang eingeschaltet und beim Nulldurchgang
+        wieder ausgeschaltet wird. Dadurch kommt bei einem eingestellten Winkel
+        von 180° 100% der Eingansspannung an, bei 0° kommt genau nichts an. Der
         Nachteil dieser Art der Spannungsverminderung ist, dass durch das
         Abhacken der Schwingung viele{" "}
-        <abbr title="Hochfrequente Wellen, die der normalen 50Hz-Netzfrequenz überlagert werden. Für eine nähere Betrachtung empfiehlt sich die Theorie der Fouriertransformation.">
-          Oberwellen
-        </abbr>{" "}
+        <Tooltip
+          title="Hochfrequente Wellen, die der normalen 50Hz-Netzfrequenz überlagert werden. Für eine nähere Betrachtung empfiehlt sich die Theorie der Fouriertransformation."
+          arrow
+        >
+          <abbr>Oberwellen</abbr>
+        </Tooltip>{" "}
         entstehen, die von den Elektrizitätswerken überhaupt nicht gerne gesehen
         werden. Bei Anlagen mit weniger als 100kW spielt das praktisch keine
         Rolle. Wird mehr Leistung verbraucht, gibt es Dimmer, die mit
@@ -72,9 +79,12 @@ export default function IndexPage() {
       <P>
         Das wichtigste überhaupt: Ohne Strom geht gar nichts. Und weil wir mit
         hohen Leistungen und Strömen arbeiten, reicht ein kleiner{" "}
-        <abbr title="Schutzkontakt, die normalen Stecker für den Haushalt.">
-          Schuko
-        </abbr>
+        <Tooltip
+          title="Schutzkontakt, die normalen Stecker für den Haushalt."
+          arrow
+        >
+          <abbr>Schuko</abbr>
+        </Tooltip>
         -Stecker nicht aus. Wir brauchen also Drehstrom, Starkstrom,
         Dreiphasenstrom oder wie man ihn auch immer nennen mag. Das sind die
         dicken Kabel mit den fünfpoligen rot-orangenen Steckern dran. Wieviel
@@ -85,9 +95,12 @@ export default function IndexPage() {
         zur Verfügung stellst, kann nicht viel schief gehen. Wichtig: Bei
         Wechselströmen werden für die Spannung Durchschnittswerte angegeben. Da
         die Spannung aber sinusförmig ist, ist der Maximalwert um den Faktor
-        <abbr title="Bei sinusförmigen Spannungen berechnet sich der Maximalwert aus dem Effektivwert durch Multiplikation mit √2.">
-          1,41
-        </abbr>{" "}
+        <Tooltip
+          title="Bei sinusförmigen Spannungen berechnet sich der Maximalwert aus dem Effektivwert durch Multiplikation mit √2."
+          arrow
+        >
+          <abbr>1,41</abbr>
+        </Tooltip>{" "}
         höher, also 324V bei 230V Netzspannung.
       </P>
 
@@ -103,9 +116,12 @@ export default function IndexPage() {
         In manchen Nationen wird im Stecker die Masse auf einen Pin gelegt, der
         hier in Deutschland nach DIN einen Kanal (also Strom) führt. Diese nette
         Kurzschlussschaltung wird liebevoll{" "}
-        <abbr title="FI = Fehlstrohmschaltung, die den Strom abschaltet, sobald weniger Strom in die Steckdose zurückkommt als rausgeschickt wurde, was bedeutet, dass irgendwo Strom auf die Erdung geleitet wird. Der Schwellwert beträgt meistens zwischen 10mA und 30mA.">
-          »FI booster«
-        </abbr>{" "}
+        <Tooltip
+          title="FI = Fehlstrohmschaltung, die den Strom abschaltet, sobald weniger Strom in die Steckdose zurückkommt als rausgeschickt wurde, was bedeutet, dass irgendwo Strom auf die Erdung geleitet wird. Der Schwellwert beträgt meistens zwischen 10mA und 30mA."
+          arrow
+        >
+          <abbr>»FI booster«</abbr>
+        </Tooltip>{" "}
         genannt.
       </P>
 
@@ -115,7 +131,9 @@ export default function IndexPage() {
         Von hier aus steuert der Lichttechniker die Anlage. Wird auch
         »Stellwerk« (im Theater) oder in Österreich »Regulierung« genannt. Der
         Ort, an dem die Ton- und Lichtpulte stehen, wird von den Tontechnikern
-        <abbr title="»Front Of House«, oft auch einfach »Frontplatz«">FoH</abbr>
+        <Tooltip title="»Front Of House«, oft auch einfach »Frontplatz«" arrow>
+          <abbr>FoH</abbr>
+        </Tooltip>
         genannt, dieser Begriff hat sich auch beim Licht weitgehend
         durchgesetzt. Näheres folgt im Kapitel »Das Lichtpult«.
       </P>

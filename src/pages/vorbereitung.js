@@ -88,7 +88,7 @@ export default function IndexPage() {
         Abbauen. Leider. Muss sein. Je schneller das erledigt ist, umso
         schneller bekommst du dein wohlverdientes Bier (metaphorisch
         natürlich…).
-      </P>{" "}
+      </P>
     </Layout>
   )
 }

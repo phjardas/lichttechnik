@@ -1,3 +1,4 @@
+import { Tooltip } from "@material-ui/core"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import H2 from "../components/H2"
@@ -108,11 +109,13 @@ export default function IndexPage() {
     <Layout title="Scheinwerfer">
       <P>
         Es gibt viele Arten von{" "}
-        <abbr title="engl. »fixture«">Scheinwerfern</abbr>. Ich will hier nur
-        einen kurzen Abriss über diejenigen geben, die bei Showproduktionen am
-        häufigsten Verwendung finden. Erstmal ein bisschen Nomenklatur zum
-        Angeben: Nur ein Laie nennt einen Scheinwerfer »Lampe«, im
-        Fachchinesisch heisst das »Leuchte«. »Lampe« hingegen meint das
+        <Tooltip title="engl. »fixture«" arrow>
+          <abbr>Scheinwerfern</abbr>
+        </Tooltip>
+        . Ich will hier nur einen kurzen Abriss über diejenigen geben, die bei
+        Showproduktionen am häufigsten Verwendung finden. Erstmal ein bisschen
+        Nomenklatur zum Angeben: Nur ein Laie nennt einen Scheinwerfer »Lampe«,
+        im Fachchinesisch heisst das »Leuchte«. »Lampe« hingegen meint das
         Leuchtmittel, also die Glühbirne oder Entladungsröhre.
       </P>
 
@@ -138,9 +141,12 @@ export default function IndexPage() {
         billig, billig, hell, leicht, billig, billig. Das Gehäuse ist aus
         Aluminium, silber oder schwarz, im Innern brennt eine Pressglaslampe mit
         Parabolspiegel als{" "}
-        <abbr title="engl. »parabolic aluminized reflector«, deswegen PAR">
-          Reflektor
-        </abbr>
+        <Tooltip
+          title="engl. »parabolic aluminized reflector«, deswegen PAR"
+          arrow
+        >
+          <abbr>Reflektor</abbr>
+        </Tooltip>
         , die Lichtstrahlen verlassen die Lampe je nach Lampentyp fast parallel
         bis breit gestreut. Verschiedene Ausführungen sind erhältlich, die sich
         durch Grösse, Leistung und Abstrahlwinkel unterscheiden. Am
@@ -157,17 +163,22 @@ export default function IndexPage() {
         Der PAR64 ist so beliebt, dass er von den Technikern liebevoll »Kanne«
         getauft wurde. Er ist in vielen Varianten erhältlich: Mit 1000W-Lampe
         gibt es sie als CP60, CP61 und CP62, mit steigender{" "}
-        <abbr title="Abstrahlwinkel">Vergenz</abbr>. In 500W gibt es nur das
-        »raylight« mit kleiner Vergenz, das in Deutschland (leider) meistens
-        ausgegeben wird. Aus Preisgründen werden meist Raylights verwendet. Wenn
-        ihr aber die Möglichkeit habt, an CP60 ranzukommen, ist das die Wahl
-        schlechthin – immerhin gibt es doppelte Leistung auf gleichem Winkel.
-        Aufpassen beim Mieten, dass ihr auch die Kannen bekommt, die ihr
-        bestellt habt und dass alle das gleiche Leuchtmittel drin haben!
-        Speziell gibt es noch sogenannte{" "}
-        <abbr title="engl. »aicraft landing light« – Flugzeug-Landescheinferfer">
-          ACLs
-        </abbr>{" "}
+        <Tooltip title="Abstrahlwinkel" arrow>
+          <abbr>Vergenz</abbr>
+        </Tooltip>
+        . In 500W gibt es nur das »raylight« mit kleiner Vergenz, das in
+        Deutschland (leider) meistens ausgegeben wird. Aus Preisgründen werden
+        meist Raylights verwendet. Wenn ihr aber die Möglichkeit habt, an CP60
+        ranzukommen, ist das die Wahl schlechthin – immerhin gibt es doppelte
+        Leistung auf gleichem Winkel. Aufpassen beim Mieten, dass ihr auch die
+        Kannen bekommt, die ihr bestellt habt und dass alle das gleiche
+        Leuchtmittel drin haben! Speziell gibt es noch sogenannte{" "}
+        <Tooltip
+          title="engl. »aicraft landing light« – Flugzeug-Landescheinferfer"
+          arrow
+        >
+          <abbr>ACLs</abbr>
+        </Tooltip>{" "}
         mit einer Vergenz von unter 3°.
       </P>
 
@@ -178,9 +189,13 @@ export default function IndexPage() {
 
       <P>
         PARs werden meist zu viert oder zu sechst an eine{" "}
-        <abbr title="engl. »pipe«">Aluminiumröhre</abbr>
-        gehängt, fertig verkabelt und dann auf ein Stativ gepackt oder an eine
-        <abbr title="engl. »truss«">Traverse</abbr>
+        <Tooltip title="engl. »pipe«" arrow>
+          <abbr>Aluminiumröhre</abbr>
+        </Tooltip>{" "}
+        gehängt, fertig verkabelt und dann auf ein Stativ gepackt oder an eine{" "}
+        <Tooltip title="engl. »truss«" arrow>
+          <abbr>Traverse</abbr>
+        </Tooltip>{" "}
         gehängt. Das nennt sich dann 4-Bar PAR64, bzw. 6-Bar PAR64. Vorteil: Die
         Bars werden fertig ausgeliefert, so hat man mit einem Handgriff sechs
         Leuchten aufgehängt. Da die Kannen aus Aluminium bestehen, sind sie
@@ -210,12 +225,15 @@ export default function IndexPage() {
         »Fresnellinsenscheinwerfer«, da vorne drin eine Fresnellinse (oder eben
         Stufenlinse) drinsteckt. Sie sind vor allem für Frontlicht und
         Seitenlicht geeignet. Normalerweise steckt vorne drauf eine{" "}
-        <abbr title="engl. »barn door«">Torblende</abbr>, das ist ein drehbares
-        Gestell mit vier Flügeln dran. Damit lässt sich der Lichtkegel ziemlich
-        gut einstellen, um nicht zu viel zu beleuchten. Die Brennweite und damit
-        die Grösse des Lichtkegels und die Schärfe des Randes lässt sich bequem
-        einstellen. Sie gibt es in Tausenden von Varianten, von 250W bis 20kW
-        ist alles vorhanden. Am häufigsten sind 500W, 1kW und 2kW anzutreffen.
+        <Tooltip title="engl. »barn door«" arrow>
+          <abbr>Torblende</abbr>
+        </Tooltip>
+        , das ist ein drehbares Gestell mit vier Flügeln dran. Damit lässt sich
+        der Lichtkegel ziemlich gut einstellen, um nicht zu viel zu beleuchten.
+        Die Brennweite und damit die Grösse des Lichtkegels und die Schärfe des
+        Randes lässt sich bequem einstellen. Sie gibt es in Tausenden von
+        Varianten, von 250W bis 20kW ist alles vorhanden. Am häufigsten sind
+        500W, 1kW und 2kW anzutreffen.
       </P>
 
       <H2>Profilscheinwerfer</H2>
@@ -345,7 +363,9 @@ export default function IndexPage() {
       <P>
         Es gibt Unmengen an kleinen und grossen Lichteffekten. Zu den
         gebräuchlichsten zählen wohl Stroboskope und UV-Röhren.{" "}
-        <abbr title="engl. »strobe«">Stroboskope</abbr>
+        <Tooltip title="engl. »strobe«" arrow>
+          <abbr>Stroboskope</abbr>
+        </Tooltip>{" "}
         sollte man auf Live-Bühnen vorsichtig einsetzen, da sie schnell als
         störend empfunden werden. Hier zählt: Stroboskope gehören in den
         hinteren Teil der Bühne oder auf die Seite, so dass sie in Richtung
