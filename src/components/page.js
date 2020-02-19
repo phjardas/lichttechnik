@@ -1,5 +1,4 @@
 import { Location } from "@reach/router"
-import { withPrefix } from "gatsby"
 import React, { createContext, useContext } from "react"
 
 const PagesContext = createContext()
@@ -19,17 +18,11 @@ const pages = [
   { path: "/dankeschoen", label: "Dankeschön!" },
 ]
 
-const basePath = withPrefix("/")
-
 export function PagesProvider({ children }) {
   return (
     <Location>
       {({ location }) => {
-        let path = location.pathname
-        if (path.startsWith(basePath))
-          path = "/" + path.substring(basePath.length)
-        path = path.replace(/(.+)\/$/, "$1")
-
+        const path = location.pathname.replace(/(.+)\/$/, "$1")
         const currentPageIndex = pages.findIndex(p => p.path === path)
 
         const current = currentPageIndex >= 0 && pages[currentPageIndex]

@@ -27,9 +27,9 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build",
     "start": "gatsby develop",
-    "serve": "gatsby serve --prefix-paths",
+    "serve": "gatsby serve",
     "clean": "gatsby clean"
   }
 }
