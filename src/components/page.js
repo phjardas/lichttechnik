@@ -5,7 +5,7 @@ import React, { createContext, useContext } from "react"
 const PagesContext = createContext()
 
 const pages = [
-  { path: "/", label: "Startseite", menu: false },
+  { path: "/", label: "Startseite", hidden: false },
   { path: "/einfuehrung", label: "Einführung" },
   { path: "/scheinwerfer", label: "Scheinwerfer" },
   { path: "/technik", label: "Technik" },
